@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-family: "SF-Pro";
+}
+
+a{
+  text-decoration: none;
+}
+.title{
+  font-weight: 600;
+  font-size: var(--FONT_SIZE_22);
+}
+
+.container{
+  position: relative;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+:root{
+  --COLOR_BLACK:#161C24;
+  --COLOR_WHITE:#FFFFFF;
+  --COLOR_DARK: #454F5B;
+  --COLOR_GREY:#C4CDD5;
+  --COLOR_LIGHT_GREY:#A4A4A4;
+  --COLOR_BLUE: #4295E4;
+  --COLOR_LIGHT_BLUE: #ADD7FF;
+
+  --FONT_SIZE_12: 12px;
+  --FONT_SIZE_14: 14px;
+  --FONT_SIZE_18: 18px;
+  --FONT_SIZE_22: 22px;
+}
+
+@font-face {
+  font-family:'SF-Pro';
+  src: url(../fonts/SF-Pro-Display-Regular.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'SF-Pro-text';
+  src: url(../fonts/sf-pro-text-regular.ttf);
+  font-style: normal;
+}
+
+.white-txt{
+  color: var(--COLOR_WHITE);
+}

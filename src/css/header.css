@@ -1,0 +1,181 @@
+.header__promo-block{
+  padding: 12px 24px;
+  background: var(--COLOR_DARK);
+  text-align: center;
+}
+
+.promo-text{
+  font-size: var(--FONT_SIZE_12);
+}
+
+.header__nav{
+  display: flex;
+
+}
+
+.header__nav-container{
+  padding: 23px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: inset 0px -1px 0px var(--COLOR_GREY);
+}
+
+.nav-menu{
+  display: none;
+}
+
+.hamburger{
+  width: 24px;
+  /* top: 40px; */
+  height: 14px;
+  z-index: 30;
+}
+
+.hamburger__item{
+  height: 2px;
+  width: 100%;
+  display: block;
+  background: black;
+  margin-bottom: 4px;
+  transition: 0.2s all;
+}
+
+.hamburger__item:last-child{
+  margin-bottom: 0;
+}
+
+.nav-menu__contact-number{
+  display: none;
+}
+
+
+.header__icons-block{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icons-block__icons{
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section__cards-wrapper{
+  padding-top: 20px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.02));
+}
+
+.card{
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__description-block{
+  display: flex;
+  flex-direction: column;
+  min-width: 335px;
+}
+
+.card__img{
+  height: 267px;
+  width: 260px;
+  margin-bottom: 12px;
+}
+
+.card__title{
+  margin-bottom: 24px;
+  line-height: 34px;
+  letter-spacing: 1px;
+}
+
+.card__subtitle{
+
+}
+
+.card__price-text{
+  line-height: 22px;
+  font-size: var(--FONT_SIZE_12);
+  color: var(--COLOR_DARK);
+  margin-bottom: 5px;
+}
+
+.price{
+  font-size: var(--FONT_SIZE_18);
+}
+
+.card__prices{
+  display: flex;
+  gap: 8px;
+  letter-spacing: 1px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.card__new-price{
+  color: var(--COLOR_BLACK);
+  line-height: 21px;
+}
+
+.card__old-price{
+  font-size: var(--FONT_SIZE_14);
+  color: var(--COLOR_LIGHT_GREY);
+  text-decoration: line-through;
+  line-height: 17px;
+}
+
+.card__button{
+  margin-bottom: 32px;
+}
+
+.button{
+  height: 50px;
+  width: 343px;
+  background: var(--COLOR_BLUE);
+  color: var(--COLOR_WHITE);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_scroll-block{
+  display: flex;
+  justify-content: space-between;
+  gap: 117px;
+}
+
+.scroll-dots{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.small-dot{
+  height: 4px;
+  width: 4px;
+  border-radius: 10px;
+  background-color: var(--COLOR_LIGHT_BLUE);
+}
+
+.ellipse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  border: 1px solid var(--COLOR_LIGHT_BLUE);
+  border-radius: 10px;
+}
+
+.big-dot{
+  height: 6px;
+  width: 6px;
+  border-radius: 10px;
+  background-color: var(--COLOR_BLUE);
+}
