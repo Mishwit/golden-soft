@@ -201,7 +201,7 @@ display: flex;
 }
 
 .fifth-section__wrapper{
-  min-height: 400px;
+  min-height: 390px;
   background: var(--COLOR_BCG_BLUE);
   padding: 32px 16px;
 }
