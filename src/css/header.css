@@ -64,6 +64,10 @@
   align-items: center;
 }
 
+.hero-section{
+  max-height: 600px;
+}
+
 .hero-section__cards-wrapper{
   padding-top: 20px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.02));
@@ -92,10 +96,6 @@
   margin-bottom: 24px;
   line-height: 34px;
   letter-spacing: 1px;
-}
-
-.card__subtitle{
-
 }
 
 .card__price-text{

@@ -12,6 +12,8 @@ a{
 .title{
   font-weight: 600;
   font-size: var(--FONT_SIZE_22);
+  line-height: 34px;
+  color: var(--COLOR_BLACK);
 }
 
 .container{
@@ -28,11 +30,13 @@ a{
   --COLOR_LIGHT_GREY:#A4A4A4;
   --COLOR_BLUE: #4295E4;
   --COLOR_LIGHT_BLUE: #ADD7FF;
+  --COLOR_BCG_BLUE: #F2F8FF;
 
   --FONT_SIZE_12: 12px;
   --FONT_SIZE_14: 14px;
   --FONT_SIZE_18: 18px;
   --FONT_SIZE_22: 22px;
+  --FONT_SIZE_24: 24px;
 }
 
 @font-face {

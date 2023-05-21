@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
-    <header>
+    <header class="container header-section">
       <div class="header__promo-block">
         <p class="promo-text white-txt">
           Скидка 10% по промокоду “ZAMOK” на все заказы до 10.09
@@ -60,7 +60,7 @@
             <div class="cards-wrapper__card card">
               <img
                 class="card__img"
-                src="./img/hero-locker-1.png"
+                src="./img/hero-lock-1.png"
                 alt="locker img"
               />
               <div class="card__description-block">
@@ -93,7 +93,119 @@
         </div>
       </section>
     </header>
-    <main></main>
+
+    <main class="container main-section">
+      <section class="first-section__wrapper">
+        <div class="first-section__achievements">
+          <div class="achievements-item">
+            <h2 class="achievements-item__title title">5,567</h2>
+            <p class="achievements-item__subtitle">Счастливых клиентов</p>
+          </div>
+
+          <div class="achievements-item">
+            <h2 class="achievements-item__title title">372</h2>
+            <p class="achievements-item__subtitle">Продаж в день</p>
+          </div>
+        </div>
+
+        <div class="first-section__achievements">
+          <div class="achievements-item">
+            <h2 class="achievements-item__title title">1245</h2>
+            <p class="achievements-item__subtitle">Продуктов на выбор</p>
+          </div>
+
+          <div class="achievements-item">
+            <h2 class="achievements-item__title title">20</h2>
+            <p class="achievements-item__subtitle">Лет на рынке</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="second-section__wrapper">
+        <h2 class="second-section__title title">Почему GoldenService?</h2>
+        <div class="why-are-we__card">
+          <img class="why-are-we__img" src="./icons/rufund.svg" alt="refund" />
+          <p class="why-are-we__descrition">
+            Возврат удвоенной стоимости каждого замка в случае брака.
+          </p>
+        </div>
+        <div class="why-are-we__card">
+          <img class="why-are-we__img" src="./icons/like.svg" alt="refund" />
+          <p class="why-are-we__descrition">
+            Наносим ваш логотип компании на наш продукт.
+          </p>
+        </div>
+        <div class="why-are-we__card">
+          <img class="why-are-we__img" src="./icons/rufund.svg" alt="refund" />
+          <p class="why-are-we__descrition">
+            Возврат удвоенной стоимости каждого замка в случае брака.
+          </p>
+        </div>
+      </section>
+
+      <section class="third-section__wrapper">
+        <h2 class="third-section__title title">Категории</h2>
+        <div class="third-section__categories">
+          <div class="categories__wrapper">
+            <div class="categories__card">
+              <img
+                class="categories__card_img"
+                src="./img/for-hotels.png"
+                alt="for hotels"
+              />
+              <p class="categories__card_description">Для отелей</p>
+            </div>
+
+            <div class="categories__card">
+              <img
+                class="categories__card_img"
+                src="./img/for-lockers.png"
+                alt="for lockers"
+              />
+              <p class="categories__card_description">Для шкафчиков</p>
+            </div>
+          </div>
+
+          <div class="categories__wrapper">
+            <div class="categories__card">
+              <img
+                class="categories__card_img"
+                src="./img/for-offices.png"
+                alt="for offices"
+              />
+              <p class="categories__card_description">Для офисов</p>
+            </div>
+
+            <div class="categories__card">
+              <img
+                class="categories__card_img"
+                src="./img/accessories.png"
+                alt="accessories"
+              />
+              <p class="categories__card_description">Аксессуары</p>
+            </div>
+          </div>
+          <a class="categories__card_button button" href="#">Все категории</a>
+        </div>
+      </section>
+
+      <section class="fourth-section__wrapper">
+        <h2 class="fourth-section__title title">Наши популярные продукты</h2>
+        <div class="fourth-section__popular">
+          <div class="popular__card">
+            <img
+              src="./img/popular-1.png"
+              alt="Дверной Замок Golden Soft для отеля"
+            />
+            <p class="card__price-text">Дверной Замок Golden Soft для отеля</p>
+            <div class="card__prices">
+              <p class="card__new-price price">33 000₽</p>
+              <p class="card__old-price price">37 000₽</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
