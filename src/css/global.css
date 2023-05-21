@@ -9,6 +9,7 @@ html{
 a{
   text-decoration: none;
 }
+
 .title{
   font-weight: 600;
   font-size: var(--FONT_SIZE_22);
@@ -20,6 +21,7 @@ a{
   position: relative;
   max-width: 375px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 :root{
@@ -31,10 +33,13 @@ a{
   --COLOR_BLUE: #4295E4;
   --COLOR_LIGHT_BLUE: #ADD7FF;
   --COLOR_BCG_BLUE: #F2F8FF;
+  --COLOR_BORDER_LIGHT_GREY:#EAEAEA;
+  --COLOR_BCG_DARK:#0D2436;
 
   --FONT_SIZE_12: 12px;
   --FONT_SIZE_14: 14px;
   --FONT_SIZE_18: 18px;
+  --FONT_SIZE_20: 20px;
   --FONT_SIZE_22: 22px;
   --FONT_SIZE_24: 24px;
 }

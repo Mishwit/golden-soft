@@ -1,0 +1,5 @@
+.footer-section__wrapper{
+  min-height: 585px;
+  background: var(--COLOR_BCG_DARK);
+  padding: 32px 16px;
+}
