@@ -1,5 +1,5 @@
 .header__promo-block{
-  padding: 12px 24px;
+  padding: 12px 20px;
   background: var(--COLOR_DARK);
   text-align: center;
 }
@@ -65,16 +65,17 @@
 }
 
 .hero-section{
-  max-height: 600px;
+  max-height: 675px;
+  padding: 20px 16px;
 }
 
 .hero-section__cards-wrapper{
-  padding-top: 20px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.02));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card{
-  min-height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,12 +84,12 @@
 .card__description-block{
   display: flex;
   flex-direction: column;
-  min-width: 335px;
+  margin-right: 35px;
 }
 
 .card__img{
-  height: 267px;
-  width: 260px;
+  height: 275px;
+  width: 280px;
   margin-bottom: 12px;
 }
 
@@ -135,7 +136,7 @@
 
 .button{
   height: 50px;
-  width: 343px;
+  width: 270px;
   background: var(--COLOR_BLUE);
   color: var(--COLOR_WHITE);
   display: flex;
@@ -146,7 +147,7 @@
 .card_scroll-block{
   display: flex;
   justify-content: space-between;
-  gap: 117px;
+  width: 270px;
 }
 
 .scroll-dots{

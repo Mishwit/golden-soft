@@ -1,0 +1,119 @@
+
+@media(max-width:1535px){
+
+  .container{
+    max-width: 1535px;
+  }
+}
+
+@media(max-width:1279px){
+
+  .container{
+    max-width: 1279px;
+  }
+}
+
+@media(max-width:1023px){
+
+  .container{
+    max-width: 1023px;
+  }
+}
+
+@media(max-width:767px){
+
+  .container{
+    max-width: 767px;
+  }
+}
+
+@media(max-width:639px){
+
+  .container{
+    max-width: 639px;
+  }
+
+  .title{
+    font-size: var(--FONT_SIZE_22);
+  }
+
+  .card__img{
+    height: 365px;
+    width: 365px;
+  }
+
+  .card__description-block{
+    margin-right: 129px;
+  }
+
+  .button{
+    height: 50px;
+    width: 365px;
+  }
+
+  .card_scroll-block{
+    width: 365px;
+  }
+
+  .why-are-we__card{
+    height: 200px;
+    width: 360px;
+  }
+}
+
+@media(max-width:413px){
+
+  .container{
+    max-width: 413px;
+  }
+
+  .card__img{
+    height: 267px;
+    width: 260px;
+  }
+
+  .card__description-block{
+    margin-right: 90px;
+  }
+
+  .button{
+    height: 50px;
+    width: 327px;
+  }
+
+  .card_scroll-block{
+   width: 327px;
+  }
+
+  .why-are-we__card{
+    height: 180px;
+    width: 327px;
+  }
+
+  .categories__card{
+    width: 161px;
+    height: 197px;
+  }
+
+  .categories__card_img{
+    height: 161px;
+    width: 161px;
+  }
+
+  .popular__card{
+    height: 426px;
+  }
+
+  .popular__card_img{
+    height: 320px;
+    width: 288px;
+  }
+
+  form{
+    width: 343px;
+  }
+
+  input{
+    width: 311px;
+  }
+}

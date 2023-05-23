@@ -12,7 +12,7 @@ a{
 
 .title{
   font-weight: 600;
-  font-size: var(--FONT_SIZE_22);
+  font-size: var(--FONT_SIZE_20);
   line-height: 34px;
   color: var(--COLOR_BLACK);
 }
