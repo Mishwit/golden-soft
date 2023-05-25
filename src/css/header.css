@@ -84,12 +84,16 @@
 .card__description-block{
   display: flex;
   flex-direction: column;
-  margin-right: 35px;
+  margin-right: 55px;
+}
+
+.card__product-description{
+  display: none;
 }
 
 .card__img{
-  height: 275px;
-  width: 280px;
+  height: 271px;
+  width: 271px;
   margin-bottom: 12px;
 }
 
@@ -97,6 +101,7 @@
   margin-bottom: 24px;
   line-height: 34px;
   letter-spacing: 1px;
+  font-size: var(--FONT_SIZE_18);
 }
 
 .card__price-text{
@@ -136,7 +141,7 @@
 
 .button{
   height: 50px;
-  width: 270px;
+  width: 272px;
   background: var(--COLOR_BLUE);
   color: var(--COLOR_WHITE);
   display: flex;

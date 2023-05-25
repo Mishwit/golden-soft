@@ -73,6 +73,7 @@ color: var(--COLOR_DARK);
   text-align: center;
   margin-bottom: 24px;
 }
+
 .third-section__categories{
   display: flex;
   align-items: center;
@@ -85,11 +86,6 @@ color: var(--COLOR_DARK);
   margin-bottom: 24px;
 }
 
-.categories__card{
-  width: 124px;
-  height: 180px;
-}
-
 .categories__card_img{
   width: 125px;
   height: 130px;
@@ -99,6 +95,10 @@ color: var(--COLOR_DARK);
 .categories__card_description{
   font-size: var(--FONT_SIZE_14);
   line-height: 24px;
+}
+
+.card__description_button{
+  display: none;
 }
 
 .fourth-section__wrapper{

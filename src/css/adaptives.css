@@ -1,84 +1,34 @@
-
-@media(max-width:1535px){
-
-  .container{
-    max-width: 1535px;
-  }
-}
-
-@media(max-width:1279px){
-
-  .container{
-    max-width: 1279px;
-  }
-}
-
-@media(max-width:1023px){
-
-  .container{
-    max-width: 1023px;
-  }
-}
-
-@media(max-width:767px){
-
-  .container{
-    max-width: 767px;
-  }
-}
-
-@media(max-width:639px){
-
-  .container{
-    max-width: 639px;
-  }
-
-  .title{
-    font-size: var(--FONT_SIZE_22);
-  }
-
-  .card__img{
-    height: 365px;
-    width: 365px;
-  }
-
-  .card__description-block{
-    margin-right: 129px;
-  }
-
-  .button{
-    height: 50px;
-    width: 365px;
-  }
-
-  .card_scroll-block{
-    width: 365px;
-  }
-
-  .why-are-we__card{
-    height: 200px;
-    width: 360px;
-  }
-}
-
-@media(max-width:413px){
+@media all and (min-width:414px){
 
   .container{
     max-width: 413px;
   }
 
   .card__img{
-    height: 267px;
-    width: 260px;
+    height: 365px;
+    width: 365px;
+
   }
 
   .card__description-block{
-    margin-right: 90px;
+    margin-right: 145px;
+  }
+
+  .card__product-description{
+    display: none;
+  }
+
+  .card{
+    flex-direction: column;
+  }
+
+  .card__title{
+    font-size: var(--FONT_SIZE_20);
   }
 
   .button{
     height: 50px;
-    width: 327px;
+    width: 365px;
   }
 
   .card_scroll-block{
@@ -87,12 +37,7 @@
 
   .why-are-we__card{
     height: 180px;
-    width: 327px;
-  }
-
-  .categories__card{
-    width: 161px;
-    height: 197px;
+    width: 365px;
   }
 
   .categories__card_img{
@@ -100,20 +45,178 @@
     width: 161px;
   }
 
-  .popular__card{
-    height: 426px;
-  }
-
-  .popular__card_img{
-    height: 320px;
-    width: 288px;
-  }
-
   form{
-    width: 343px;
+    width: 365px;
   }
 
   input{
-    width: 311px;
+    width: 333px;
+  }
+}
+
+@media all and (min-width:640px){
+
+  .container{
+    min-width: 639px;
+  }
+
+  .title{
+    font-size: var(--FONT_SIZE_22);
+  }
+
+  .card{
+    flex-direction: column;
+  }
+
+  .card__img{
+    height: 365px;
+    width: 365px;
+  }
+
+  .card__description-block{
+    margin-right: 132px;
+  }
+
+  .card__product-description{
+    display: none;
+  }
+
+
+
+  .card_scroll-block{
+    width: 370px;
+  }
+
+  .first-section__wrapper{
+    align-items: center;
+  }
+
+  .first-section__achievements{
+    flex-direction: row;
+  }
+
+  .why-are-we__wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .why-are-we__card{
+    height: 200px;
+    width: 591px;
+  }
+
+    .categories__card_img{
+      width: 285px;
+      height: 285px;
+    }
+
+    .categories__card_description{
+      font-size: var(--FONT_SIZE_18);
+    }
+
+    .footer-section__communication{
+      justify-content: space-evenly;
+    }
+
+    .nav-menu__wrapper{
+      justify-content: space-evenly;
+    }
+}
+
+@media all and (min-width:768px){
+
+  .container{
+    min-width: 767px;
+  }
+
+  .title{
+    font-size: var(--FONT_SIZE_28);
+  }
+
+  .card{
+    flex-direction: row;
+  }
+
+  .card__title{
+    margin-bottom: 12px;
+  }
+
+  .card__img{
+    height: 350px;
+    width: 350px;
+  }
+
+  .card__img{
+    margin-right: 35px;
+  }
+
+  .card__description-block{
+    margin-right: 0;
+  }
+
+  .card__product-description{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--COLOR_DARK);
+    margin-bottom: 16px;
+  }
+
+  .product-description__paragraph{
+    font-size: var(--FONT_SIZE_12);
+    line-height: 24px;
+  }
+
+  .first-section__wrapper{
+    align-items: center;
+  }
+
+  .first-section__achievements{
+    flex-direction: row;
+  }
+
+  .why-are-we__card{
+    width: 719px;
+  }
+
+  .card__description_button{
+    display: flex;
+    padding: 12px 78px;
+    background-color: var(--COLOR_WHITE);
+    border: 1px solid var(--COLOR_BLACK);
+    text-decoration: none;
+    color: var(--COLOR_BLACK);
+    justify-content: center;
+  }
+
+  .categories__card{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .categories__card_img{
+    margin-bottom: 0;
+  }
+}
+
+@media all and (min-width:1024px){
+
+  .container{
+    min-width: 1023px;
+  }
+}
+
+@media all and (min-width:1280px){
+
+  .container{
+    min-width: 1279px;
+  }
+}
+
+@media all and (min-width:1536px){
+
+  .container{
+    min-width: 1535px;
   }
 }
