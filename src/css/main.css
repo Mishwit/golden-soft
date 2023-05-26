@@ -38,6 +38,10 @@ color: var(--COLOR_DARK);
   text-align: center;
 }
 
+.why-are-we__wrapper{
+  gap: 30px;
+}
+
 .why-are-we__card{
   height: 180px;
   width: 280px;

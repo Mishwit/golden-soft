@@ -8,9 +8,12 @@
   font-size: var(--FONT_SIZE_12);
 }
 
+.header__brand-logo{
+  display: none;
+}
+
 .header__nav{
   display: flex;
-
 }
 
 .header__nav-container{
@@ -49,6 +52,10 @@
   display: none;
 }
 
+.black-link{
+  color: var(--COLOR_BLACK);
+}
+
 
 .header__icons-block{
   display: flex;
@@ -84,7 +91,7 @@
 .card__description-block{
   display: flex;
   flex-direction: column;
-  margin-right: 55px;
+  /* margin-right: 55px; */
 }
 
 .card__product-description{
@@ -135,9 +142,6 @@
   line-height: 17px;
 }
 
-.card__button{
-  margin-bottom: 32px;
-}
 
 .button{
   height: 50px;

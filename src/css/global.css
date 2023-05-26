@@ -8,6 +8,16 @@ html{
 
 a{
   text-decoration: none;
+  color: var(--COLOR_WHITE);
+}
+
+a:hover{
+  color: var(--COLOR_BLUE);
+  transition: 0.3s;
+}
+
+.button:hover{
+  color: var(--COLOR_WHITE);
 }
 
 .title{
@@ -69,4 +79,5 @@ a{
 
 .white-txt{
   color: var(--COLOR_WHITE);
+
 }

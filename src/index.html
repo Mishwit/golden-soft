@@ -7,13 +7,13 @@
     <title>Golden soft</title>
     <link rel="stylesheet" href="./css/normalizes.css" />
     <link rel="stylesheet" href="./css/resets.css" />
-
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/adaptives.css" />
   </head>
+
   <body>
     <header class="container header-section">
       <div class="header__promo-block">
@@ -27,29 +27,49 @@
           <span class="hamburger__item"></span>
           <span class="hamburger__item"></span>
         </div>
-        <nav class="header__nav nav-menu">
-          <ul class="nav-menu__list">
-            <li class="nav-menu__list-item list-item">
-              <a href="#">Главная</a>
+
+        <a href="#" class="header__brand-logo">
+          <img src="./icons/brand-logo-header.svg" alt="logo"
+        /></a>
+        <nav class="header__nav header__nav-menu nav-menu">
+          <ul class="header__nav-menu_list nav-menu__list">
+            <li
+              class="header__nav-menu_list-item nav-menu__list-item list-item"
+            >
+              <a class="black-link" href="#">Главная</a>
             </li>
-            <li class="nav-menu__list-item list-item">
-              <a href="#">Каталог</a>
+
+            <li
+              class="header__nav-menu_list-item nav-menu__list-item list-item"
+            >
+              <a class="black-link" href="#">
+                Каталог <img src="./icons/dropdown.svg" alt="dropdown" />
+              </a>
             </li>
-            <li class="nav-menu__list-item list-item">
-              <a href="#">Оптовая продажа</a>
+
+            <li
+              class="header__nav-menu_list-item nav-menu__list-item list-item"
+            >
+              <a class="black-link" href="#">Оптовая продажа</a>
             </li>
-            <li class="nav-menu__list-item list-item">
-              <a href="#">О нас</a>
+
+            <li
+              class="header__nav-menu_list-item nav-menu__list-item list-item"
+            >
+              <a class="black-link" href="#">О нас </a>
             </li>
           </ul>
         </nav>
-        <div class="nav-menu__contact-number">
+
+        <a href="#" class="nav-menu__contact-number black-link">
           <img src="./icons/phone.svg" alt="phone call" />+7 (966) 55 88 499
-        </div>
+        </a>
+
         <div class="header__icons-block">
           <a class="icons-block__icons" href="#">
             <img src="./icons/favourites.svg" alt="favourites" />
           </a>
+
           <a class="icons-block__icons" href="#">
             <img src="./icons/shopping-cart.svg" alt="shopping cart" />
           </a>
@@ -64,40 +84,53 @@
                 src="./img/hero-lock-1.png"
                 alt="locker img"
               />
+
               <div class="card__description-block">
                 <h1 class="card__title title">
-                  Golden Soft <br />
+                  Golden Soft
+                  <br />
                   GS-200Z-5 для офиса
                 </h1>
+
                 <div class="card__product-description">
                   <p class="product-description__paragraph">
                     Замок дверной электронный Golden Soft GS-200Z-5 имеет
                     роскошный глянцевый блеск, четкие линии, красивые формы.
                   </p>
+
                   <p class="product-description__paragraph">
                     Подходит для установки на деревянную/межкомнатную дверь.
                   </p>
                 </div>
+
                 <div class="card__subtitle subtitle">
                   <p class="card__price-text">Цена</p>
+
                   <div class="card__prices">
                     <p class="card__new-price price">33 000₽</p>
                     <p class="card__old-price price">37 000₽</p>
                   </div>
+                  <a class="card__button button" href="#">Добавить в корзину</a>
                 </div>
               </div>
             </div>
-            <a class="card__button button" href="#">Добавить в корзину</a>
             <div class="card_scroll-block scroll-block">
-              <img src="./icons/left-arrow.svg" alt="left arrow" />
+              <a href="#">
+                <img src="./icons/left-arrow.svg" alt="left arrow" />
+              </a>
               <div class="scroll-dots">
                 <div class="small-dot"></div>
+
                 <div class="scroll-block__ellipse ellipse">
                   <div class="big-dot"></div>
                 </div>
+
                 <div class="small-dot"></div>
               </div>
-              <img src="./icons/right-arrow.svg" alt="right arrow" />
+
+              <a href="#">
+                <img src="./icons/right-arrow.svg" alt="right arrow" />
+              </a>
             </div>
           </div>
         </div>
@@ -140,22 +173,27 @@
               src="./icons/rufund.svg"
               alt="refund"
             />
+
             <p class="why-are-we__descrition">
               Возврат удвоенной стоимости каждого замка в случае брака.
             </p>
           </div>
+
           <div class="why-are-we__card">
             <img class="why-are-we__img" src="./icons/like.svg" alt="refund" />
+
             <p class="why-are-we__descrition">
               Наносим ваш логотип компании на наш продукт.
             </p>
           </div>
+
           <div class="why-are-we__card">
             <img
               class="why-are-we__img"
               src="./icons/rufund.svg"
               alt="refund"
             />
+
             <p class="why-are-we__descrition">
               Возврат удвоенной стоимости каждого замка в случае брака.
             </p>
@@ -165,6 +203,7 @@
 
       <section class="third-section__wrapper">
         <h2 class="third-section__title title">Категории</h2>
+
         <div class="third-section__categories">
           <div class="categories__wrapper">
             <div class="categories__card">
@@ -173,6 +212,7 @@
                 src="./img/for-hotels-nor.png"
                 alt="for hotels"
               />
+
               <p class="categories__card_description">Для отелей</p>
               <a class="card__description_button" href="#">Перейти</a>
             </div>
@@ -183,6 +223,7 @@
                 src="./img/for-lockers-nor.png"
                 alt="for lockers"
               />
+
               <p class="categories__card_description">Для шкафчиков</p>
               <a class="card__description_button" href="#">Перейти</a>
             </div>
@@ -195,6 +236,7 @@
                 src="./img/for-offices-nor.png"
                 alt="for offices"
               />
+
               <p class="categories__card_description">Для офисов</p>
               <a class="card__description_button" href="#">Перейти</a>
             </div>
@@ -205,23 +247,28 @@
                 src="./img/accessories-nor.png"
                 alt="accessories"
               />
+
               <p class="categories__card_description">Аксессуары</p>
               <a class="card__description_button" href="#">Перейти</a>
             </div>
           </div>
+
           <a class="categories__card_button button" href="#">Все категории</a>
         </div>
       </section>
 
       <section class="fourth-section__wrapper">
         <h2 class="fourth-section__title title">Наши популярные продукты</h2>
+
         <div class="fourth-section__popular-cards">
-          <div class="popular__card">
+          <a href="#" class="popular__card black-link">
             <div class="popular__card_sale">SALE</div>
+
             <div class="popular__card_availability-block">
               <div class="availability-block__status">
                 <img src="./icons/check-mark.svg" alt="check mark" />
               </div>
+
               <p class="availability-block__text">В наличии</p>
             </div>
 
@@ -229,28 +276,33 @@
               <img class="gift-block__img" src="./icons/gift.svg" alt="gift" />
               <p class="gift-block__text">Подарок</p>
             </div>
+
             <img
               class="popular__card_img"
               src="./img/popular-1.png"
               alt="Дверной Замок Golden Soft для отеля"
             />
+
             <div class="popular__card_text">
               <p class="popular__card_description">
                 Дверной Замок Golden Soft для отеля
               </p>
+
               <div class="popular__card_prices">
                 <p class="popular__card_new-price price">33 000₽</p>
                 <p class="popular__card_old-price price">37 000₽</p>
               </div>
             </div>
-          </div>
+          </a>
 
-          <div class="popular__card">
+          <a href="#" class="popular__card black-link">
             <div class="popular__card_sale">SALE</div>
+
             <div class="popular__card_availability-block">
               <div class="availability-block__status">
                 <img src="./icons/cross.svg" alt="check mark" />
               </div>
+
               <p class="availability-block__text">Нет в наличии</p>
             </div>
 
@@ -258,28 +310,33 @@
               <img class="gift-block__img" src="./icons/gift.svg" alt="gift" />
               <p class="gift-block__text">Подарок</p>
             </div>
+
             <img
               class="popular__card_img"
               src="./img/popular-2.png"
               alt="вариативный замок Golden Soft для отеля"
             />
+
             <div class="popular__card_text">
               <p class="popular__card_description">
                 Вариативный замок Golden Soft для отеля
               </p>
+
               <div class="popular__card_prices">
                 <p class="popular__card_new-price price">7 000₽</p>
                 <p class="popular__card_old-price price">8 000₽</p>
               </div>
             </div>
-          </div>
+          </a>
 
-          <div class="popular__card">
+          <a href="#" class="popular__card black-link">
             <div class="popular__card_sale">SALE</div>
+
             <div class="popular__card_availability-block">
               <div class="availability-block__status">
                 <img src="./icons/check-mark.svg" alt="check mark" />
               </div>
+
               <p class="availability-block__text">В наличии</p>
             </div>
 
@@ -287,28 +344,33 @@
               <img class="gift-block__img" src="./icons/gift.svg" alt="gift" />
               <p class="gift-block__text">Подарок</p>
             </div>
+
             <img
               class="popular__card_img"
               src="./img/popular-3.png"
               alt="Дверной Замок Golden Soft для офиса"
             />
+
             <div class="popular__card_text">
               <p class="popular__card_description">
                 Дверной Замок Golden Soft для офиса
               </p>
+
               <div class="popular__card_prices">
                 <p class="popular__card_new-price price">33 000₽</p>
                 <p class="popular__card_old-price price">39 000₽</p>
               </div>
             </div>
-          </div>
+          </a>
 
-          <div class="popular__card">
+          <a href="#" class="popular__card black-link">
             <div class="popular__card_sale">SALE</div>
+
             <div class="popular__card_availability-block">
               <div class="availability-block__status">
                 <img src="./icons/check-mark.svg" alt="check mark" />
               </div>
+
               <p class="availability-block__text">В наличии</p>
             </div>
 
@@ -316,26 +378,30 @@
               <img class="gift-block__img" src="./icons/gift.svg" alt="gift" />
               <p class="gift-block__text">Подарок</p>
             </div>
+
             <img
               class="popular__card_img"
               src="./img/popular-4.png"
               alt="Дверной Замок Golden Soft для офиса"
             />
+
             <div class="popular__card_text">
               <p class="popular__card_description">
                 Дверной Замок Golden Soft для офиса
               </p>
+
               <div class="popular__card_prices">
                 <p class="popular__card_new-price price">9 000₽</p>
                 <p class="popular__card_old-price price">12 000₽</p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </section>
 
       <section class="fifth-section__wrapper">
         <h2 class="fifth-section__title title">Мы Вам перезвоним</h2>
+
         <p class="fifth-section__subtitle">
           Если у вас возникли какие-то вопросы или проблемы, заполните форму и
           мы Вам перезвоним.
@@ -349,68 +415,118 @@
           <form class="forms__user-email" action="" method="get">
             <input type="text" placeholder="Ваш Email" name="text" value="" />
           </form>
+
           <a class="button" href="#">Отправить</a>
         </div>
       </section>
     </main>
+
     <footer class="container footer-section">
       <div class="footer-section__wrapper">
-        <div class="footer-section__communication">
-          <div class="footer-section__logo logo">
-            <img src="./icons/brand-logo.svg" alt="logo" />
+        <div class="footer-section__main-blocks">
+          <div class="footer-section__communication">
+            <div class="footer-section__logo logo">
+              <a href="#">
+                <img src="./icons/brand-logo.svg" alt="logo" />
+              </a>
+            </div>
+
+            <div class="footer-section__socials">
+              <a href="#">
+                <img src="./icons/vk-icon.svg" alt="vk" />
+              </a>
+
+              <a href="#">
+                <img src="./icons/twitter-icon.svg" alt="twitter" />
+              </a>
+
+              <a href="#">
+                <img src="./icons/facebook-icon.svg" alt="facebook" />
+              </a>
+            </div>
           </div>
-          <div class="footer-section__socials">
-            <img src="./icons/vk-icon.svg" alt="vk" />
-            <img src="./icons/twitter-icon.svg" alt="twitter" />
-            <img src="./icons/facebook-icon.svg" alt="facebook" />
-          </div>
+
+          <nav class="footer-section__nav-menu">
+            <div class="nav-menu__wrapper">
+              <ul class="nav-menu__list footer__nav-menu_list">
+                <h3 class="nav-menu__list_title nav-title">Навигация</h3>
+
+                <li class="nav-menu__list-item list-item">
+                  <a href="#"> Главная</a>
+                </li>
+
+                <li class="nav-menu__list-item list-item">
+                  <a href="#"> Каталог</a>
+                </li>
+
+                <li class="nav-menu__list-item list-item">
+                  <a href="#"> Оптовая продажа</a>
+                </li>
+
+                <li class="nav-menu__list-item list-item">
+                  <a href="#"> О нас</a>
+                </li>
+              </ul>
+
+              <ul class="nav-menu__list footer__nav-menu_list">
+                <h3 class="nav-menu__list_title nav-title">Наши контакты</h3>
+
+                <p class="nav-menu__text">Телефоны</p>
+
+                <li class="nav-menu__list-item list-item">
+                  <a href="#"> +7 (988) 565 00 38</a>
+                </li>
+
+                <li class="nav-menu__list-item list-item">
+                  <a href="#"> +375 33 662 82 56</a>
+                </li>
+
+                <p class="nav-menu__text">Email</p>
+
+                <li class="nav-menu__list-item list-item">
+                  <a href="#"> vladpertcev@mail.ru</a>
+                </li>
+
+                <li class="nav-menu__list-item list-item">
+                  <a href="#"> korobko416@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="nav-menu__wrapper">
+              <ul class="nav-menu__list footer__nav-menu_list">
+                <h3 class="nav-menu__list_title nav-title">Информация</h3>
+
+                <li class="nav-menu__list-item list-item">
+                  <a href="#"> Доставка и оплата</a>
+                </li>
+
+                <li class="nav-menu__list-item list-item">
+                  <a href="#"> Гарантии</a>
+                </li>
+
+                <li class="nav-menu__list-item list-item">
+                  <a href="#"> Возврат товара</a>
+                </li>
+              </ul>
+
+              <ul class="nav-menu__list footer__nav-menu_list">
+                <h3 class="nav-menu__list_title nav-title">Наш адрес</h3>
+
+                <li class="nav-menu__list-item list-item">
+                  <a href="#"> Россия, Ростов-на-Дону ул. Богачева, 16</a>
+                </li>
+
+                <li class="nav-menu__list-item list-item">
+                  <a href="#"> Беларусь, Солигорск ул. Ленина, 10б</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-        <nav class="footer-section__nav-menu">
-          <div class="nav-menu__wrapper">
-            <ul class="nav-menu__list">
-              <h3 class="nav-menu__list_title nav-title">Навигация</h3>
-              <li class="nav-menu__list-item list-item">Главная</li>
-              <li class="nav-menu__list-item list-item">Каталог</li>
-              <li class="nav-menu__list-item list-item">Оптовая продажа</li>
-              <li class="nav-menu__list-item list-item">О нас</li>
-            </ul>
+        <hr class="footer__hr" />
 
-            <ul class="nav-menu__list">
-              <h3 class="nav-menu__list_title nav-title">Наши контакты</h3>
-              <p class="nav-menu__text">Телефоны</p>
-              <li class="nav-menu__list-item list-item">+7 (988) 565 00 38</li>
-              <li class="nav-menu__list-item list-item">+375 33 662 82 56</li>
-              <p class="nav-menu__text">Email</p>
-              <li class="nav-menu__list-item list-item">vladpertcev@mail.ru</li>
-              <li class="nav-menu__list-item list-item">
-                korobko416@gmail.com
-              </li>
-            </ul>
-          </div>
-
-          <div class="nav-menu__wrapper">
-            <ul class="nav-menu__list">
-              <h3 class="nav-menu__list_title nav-title">Другое</h3>
-              <li class="nav-menu__list-item list-item">Доставка и оплата</li>
-              <li class="nav-menu__list-item list-item">Гарантии</li>
-              <li class="nav-menu__list-item list-item">Возврат товара</li>
-            </ul>
-
-            <ul class="nav-menu__list">
-              <h3 class="nav-menu__list_title nav-title">Наш адрес</h3>
-              <li class="nav-menu__list-item list-item">
-                Россия, Ростов-на-Дону ул. Богачева, 16
-              </li>
-              <li class="nav-menu__list-item list-item">
-                Беларусь, Солигорск ул. Ленина, 10б
-              </li>
-            </ul>
-          </div>
-          <hr class="footer__hr" />
-          <p class="footer__copyright">
-            © 2021 Golden Soft All rights reserved.
-          </p>
-        </nav>
+        <p class="footer__copyright">© 2021 Golden Soft All rights reserved.</p>
       </div>
     </footer>
   </body>
