@@ -1,11 +1,18 @@
 .header__promo-block{
   padding: 12px 20px;
   background: var(--COLOR_DARK);
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .promo-text{
   font-size: var(--FONT_SIZE_12);
+}
+
+.back-call{
+  display: none;
+  text-decoration: underline;
+  margin-right: 100px;
 }
 
 .header__brand-logo{
@@ -91,7 +98,6 @@
 .card__description-block{
   display: flex;
   flex-direction: column;
-  /* margin-right: 55px; */
 }
 
 .card__product-description{
@@ -109,6 +115,10 @@
   line-height: 34px;
   letter-spacing: 1px;
   font-size: var(--FONT_SIZE_18);
+}
+
+.card__subtitle{
+  margin-bottom: 32px;
 }
 
 .card__price-text{

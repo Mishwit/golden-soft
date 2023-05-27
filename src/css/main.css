@@ -110,6 +110,7 @@ color: var(--COLOR_DARK);
   flex-direction: column;
   min-height: 525px;
   padding-left: 16px;
+  justify-content: center;
 }
 
 .fourth-section__title{
@@ -219,6 +220,10 @@ display: flex;
   color: var(--COLOR_DARK);
   text-decoration: line-through;
   line-height: 17px;
+}
+
+.fourth-section__nav-arrows{
+  display: none;
 }
 
 .fifth-section__wrapper{

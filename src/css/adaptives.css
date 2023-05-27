@@ -1,8 +1,8 @@
 @media all and (min-width:414px){
 
-  .container{
+  /* .container{
     max-width: 414px;
-  }
+  } */
 
   .card__img{
     height: 365px;
@@ -56,9 +56,9 @@
 
 @media all and (min-width:640px){
 
-  .container{
+  /* .container{
     min-width: 639px;
-  }
+  } */
 
   .title{
     font-size: var(--FONT_SIZE_22);
@@ -73,10 +73,6 @@
     width: 365px;
   }
 
-  .card__description-block{
-    margin-right: 132px;
-  }
-
   .card__product-description{
     display: none;
   }
@@ -85,10 +81,6 @@
 
   .card_scroll-block{
     width: 370px;
-  }
-
-  .first-section__wrapper{
-    align-items: center;
   }
 
   .first-section__achievements{
@@ -129,9 +121,9 @@
 
 @media all and (min-width:768px){
 
-  .container{
+  /* .container{
     min-width: 768px;
-  }
+  } */
 
   .hamburger{
     display: none;
@@ -166,6 +158,7 @@
 
   .card{
     flex-direction: row;
+    margin-bottom: 32px;
   }
 
   .card__subtitle{
@@ -194,10 +187,6 @@
     margin-right: 35px;
   }
 
-  .card__description-block{
-    margin-right: 0;
-  }
-
   .card__product-description{
     display: flex;
     flex-direction: column;
@@ -210,10 +199,6 @@
   .product-description__paragraph{
     font-size: var(--FONT_SIZE_12);
     line-height: 24px;
-  }
-
-  .first-section__wrapper{
-    align-items: center;
   }
 
   .first-section__achievements{
@@ -244,6 +229,10 @@
     margin-bottom: 0;
   }
 
+  .forms__button{
+    width: 365px;
+  }
+
   .footer__hr{
     width: 720px;
   }
@@ -251,9 +240,9 @@
 
 @media all and (min-width:1024px){
 
-  .container{
+  /* .container{
     min-width: 1024px;
-  }
+  } */
 
   .card{
     margin-bottom: 40px;
@@ -284,6 +273,10 @@
   .categories__card_img{
     width: 380px;
     height: 380px;
+  }
+
+  .popular__card_img{
+    width: 280px;
   }
 
 
@@ -318,13 +311,25 @@
     width: 780px;
   }
 
+  .fourth-section__title-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .fourth-section__nav-arrows{
+    display: flex;
+    margin-right: 135px;
+    gap: 40px;
+  }
+
 }
 
 @media all and (min-width:1280px){
 
-  .container{
+  /* .container{
     min-width: 1280px;
-  }
+  } */
 
   .promo-text{
     font-size: var(--FONT_SIZE_16);
@@ -388,6 +393,8 @@
     bottom: 70px;
     width: 220px;
     left: 40px;
+    font-size: var(--FONT_SIZE_22);
+    font-weight: 500;
   }
 
   .card__description_button{
@@ -429,6 +436,10 @@
     width: 208px;
   }
 
+  .forms__button{
+    width: 220px;
+  }
+
   .footer-section__main-blocks{
     display: flex;
     justify-content: space-evenly;
@@ -445,17 +456,97 @@
 
   .footer__hr {
     width: 1100px;
-}
+  }
 
-.footer__copyright{
-  font-size: var(--FONT_SIZE_14);
-}
-
+  .footer__copyright{
+    font-size: var(--FONT_SIZE_14);
+  }
 }
 
 @media all and (min-width:1536px){
 
-  .container{
+  /* .container{
     min-width: 1440px;
+  } */
+
+  .header__nav-menu_list-item{
+    font-size: var(--FONT_SIZE_20);
+  }
+
+  .header__promo-block{
+    justify-content: flex-end;
+  }
+
+  .promo-text{
+    margin-right: 200px;
+    letter-spacing: 0.12em;
+  }
+
+  .back-call{
+    display: block;
+  }
+
+  .nav-menu__contact-number{
+    font-size: var(--FONT_SIZE_18);
+  }
+
+  .title{
+    font-size: var(--FONT_SIZE_44);
+    line-height: 62px;
+  }
+
+  .card__img{
+    height: 530px;
+    width: 530px;
+  }
+
+  .card__new-price{
+    font-size: var(--FONT_SIZE_24);
+    font-weight: 600;
+  }
+
+  .card__old-price{
+    font-size: var(--FONT_SIZE_22);
+  }
+
+  .achievements-item__title{
+    font-size: var(--FONT_SIZE_32);
+    line-height: 38px;
+  }
+
+  .why-are-we__wrapper{
+    margin-bottom: 100px;
+  }
+
+  .why-are-we__card{
+    width: 393px;
+  }
+
+  .why-are-we__descrition{
+    font-size: var(--FONT_SIZE_20);
+    font-weight: 300;
+  }
+
+  .categories__wrapper{
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  .fourth-section__wrapper {
+    padding-left:100px ;
+  }
+
+  .fifth-section__wrapper{
+    padding: 64px 16px;
+  }
+
+
+  .footer-section__wrapper{
+    padding-top:55px ;
+  }
+
+
+  .footer-section__main-blocks{
+    margin-bottom: 50px;
   }
 }
