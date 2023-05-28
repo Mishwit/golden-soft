@@ -240,6 +240,10 @@
     margin-right: 135px;
     gap: 40px;
   }
+
+  .popular__card{
+    height: 450px;
+  }
 }
 
 @media all and (min-width:1280px){
