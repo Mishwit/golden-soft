@@ -1,3 +1,125 @@
+.hero-section{
+  max-height: 675px;
+  padding: 20px 16px;
+}
+
+.hero-section__cards-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__description-block{
+  display: flex;
+  flex-direction: column;
+}
+
+.card__product-description{
+  display: none;
+}
+
+.card__img{
+  height: 271px;
+  width: 271px;
+  margin-bottom: 12px;
+}
+
+.card__title{
+  margin-bottom: 24px;
+  line-height: 34px;
+  letter-spacing: 1px;
+  font-size: var(--FONT_SIZE_18);
+}
+
+.card__subtitle{
+  margin-bottom: 32px;
+}
+
+.card__price-text{
+  line-height: 22px;
+  font-size: var(--FONT_SIZE_12);
+  color: var(--COLOR_DARK);
+  margin-bottom: 5px;
+}
+
+.price{
+  font-size: var(--FONT_SIZE_18);
+}
+
+.card__prices{
+  display: flex;
+  gap: 8px;
+  letter-spacing: 1px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.card__new-price{
+  color: var(--COLOR_BLACK);
+  line-height: 21px;
+}
+
+.card__old-price{
+  font-size: var(--FONT_SIZE_14);
+  color: var(--COLOR_LIGHT_GREY);
+  text-decoration: line-through;
+  line-height: 17px;
+}
+
+
+.button{
+  height: 50px;
+  width: 272px;
+  background: var(--COLOR_BLUE);
+  color: var(--COLOR_WHITE);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_scroll-block{
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+}
+
+.scroll-dots{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.small-dot{
+  height: 4px;
+  width: 4px;
+  border-radius: 10px;
+  background-color: var(--COLOR_LIGHT_BLUE);
+}
+
+.ellipse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  border: 1px solid var(--COLOR_LIGHT_BLUE);
+  border-radius: 10px;
+}
+
+.big-dot{
+  height: 6px;
+  width: 6px;
+  border-radius: 10px;
+  background-color: var(--COLOR_BLUE);
+}
+
 .first-section__wrapper{
   min-height: 155px;
   background-color: var(--COLOR_BCG_BLUE);
@@ -19,9 +141,9 @@
 }
 
 .achievements-item__subtitle{
-line-height: 24px;
-font-size: var(--FONT_SIZE_14);
-color: var(--COLOR_DARK);
+  line-height: 24px;
+  font-size: var(--FONT_SIZE_14);
+  color: var(--COLOR_DARK);
 }
 
 .second-section__wrapper{

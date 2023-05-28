@@ -29,9 +29,13 @@ a:hover{
 
 .container{
   position: relative;
-  max-width: 1536px;
+  max-width: 1920px;
   margin: 0 auto;
   overflow: hidden;
+}
+
+.white-txt{
+  color: var(--COLOR_WHITE);
 }
 
 :root{
@@ -52,15 +56,10 @@ a:hover{
   --FONT_SIZE_20: 20px;
   --FONT_SIZE_22: 22px;
   --FONT_SIZE_24: 24px;
-  --FONT_SIZE_26: 26px;
+
   --FONT_SIZE_28: 28px;
-  --FONT_SIZE_30: 30px;
   --FONT_SIZE_32: 32px;
-  --FONT_SIZE_34: 34px;
-  --FONT_SIZE_36: 36px;
   --FONT_SIZE_38: 38px;
-  --FONT_SIZE_40: 40px;
-  --FONT_SIZE_42: 42px;
   --FONT_SIZE_44: 44px;
 
 }
@@ -75,9 +74,4 @@ a:hover{
   font-family:'SF-Pro-text';
   src: url(../fonts/sf-pro-text-regular.ttf);
   font-style: normal;
-}
-
-.white-txt{
-  color: var(--COLOR_WHITE);
-
 }
