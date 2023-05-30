@@ -1,0 +1,15 @@
+{
+  "name": "npm-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --check .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikhail Gavrilov <mgavrilovlife@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.8.8"
+  }
+}
