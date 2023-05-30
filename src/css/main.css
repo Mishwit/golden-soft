@@ -212,6 +212,10 @@
   margin-bottom: 24px;
 }
 
+.categories__card{
+  color: var(--COLOR_BLACK);
+}
+
 .categories__card_img{
   width: 125px;
   height: 130px;
