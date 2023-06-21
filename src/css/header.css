@@ -15,7 +15,7 @@
   margin-right: 100px;
 }
 
-.header__brand-logo{
+header .logo{
   display: none;
 }
 
@@ -23,7 +23,7 @@
   display: flex;
 }
 
-.header__nav-container{
+.header-wrapper{
   padding: 23px 16px;
   display: flex;
   align-items: center;
@@ -31,11 +31,19 @@
   box-shadow: inset 0px -1px 0px var(--COLOR_GREY);
 }
 
-.nav-menu{
+.menu{
   display: none;
 }
 
+header .menu__list{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
 .hamburger{
+  background: none;
+  border: none;
   width: 24px;
   height: 14px;
   z-index: 30;
@@ -54,7 +62,7 @@
   margin-bottom: 0;
 }
 
-.nav-menu__contact-number{
+.menu__contact-number{
   display: none;
 }
 
@@ -83,23 +91,23 @@
     display: none;
   }
 
-  .header__brand-logo{
+ header .logo{
     display: block;
   }
 
-  .nav-menu{
+  .menu{
     display: flex;
   }
 
-  .header__nav-container{
+  .header-wrapper{
     justify-content: space-around;
   }
 
-  .header__nav-menu_list{
+  .header__menu_list{
     flex-direction: row;
   }
 
-  .nav-menu__contact-number{
+  .menu__contact-number{
     display: flex;
     align-items: center;
     gap: 10px;
@@ -126,11 +134,11 @@
 
 @media all and (min-width:1536px){
 
-  .header__nav-menu_list-item{
+  .header__menu_list-item{
     font-size: var(--FONT_SIZE_20);
   }
 
-  .nav-menu__contact-number{
+  .menu__contact-number{
     font-size: var(--FONT_SIZE_18);
   }
 }

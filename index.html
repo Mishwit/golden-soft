@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Golden soft</title>
+    <title>Golden soft - lock shop</title>
     <link rel="stylesheet" href="./src/css/normalizes.css" />
     <link rel="stylesheet" href="./src/css/resets.css" />
     <link rel="stylesheet" href="./src/css/global.css" />
@@ -22,41 +22,34 @@
         </p>
         <a href="#" class="back-call white-txt">Обратный звонок</a>
       </div>
-      <div class="container header__nav-container">
-        <div class="hamburger">
+      <div class="container header-wrapper">
+        <button class="hamburger">
           <span class="hamburger__item"></span>
           <span class="hamburger__item"></span>
           <span class="hamburger__item"></span>
-        </div>
+        </button>
 
-        <a href="#" class="header__brand-logo">
-          <img src="./src/icons/brand-logo-header.svg" alt="logo"
-        /></a>
-        <nav class="header__nav header__nav-menu nav-menu">
-          <ul class="header__nav-menu_list nav-menu__list">
-            <li
-              class="list-item header__nav-menu_list-item nav-menu__list-item"
-            >
+        <a href="#" class="logo">
+          <img src="./src/icons/brand-logo-header.svg" alt="logo" />
+        </a>
+
+        <nav class="header__nav menu">
+          <ul class="_list menu__list">
+            <li class="list-item list-item menu__item">
               <a class="black-link" href="#">Главная</a>
             </li>
 
-            <li
-              class="header__nav-menu_list-item nav-menu__list-item list-item"
-            >
+            <li class="list-item menu__item list-item">
               <a class="black-link" href="#">
                 Каталог <img src="./src/icons/dropdown.svg" alt="dropdown" />
               </a>
             </li>
 
-            <li
-              class="header__nav-menu_list-item nav-menu__list-item list-item"
-            >
+            <li class="list-item menu__item list-item">
               <a class="black-link" href="#">Оптовая продажа</a>
             </li>
 
-            <li
-              class="header__nav-menu_list-item nav-menu__list-item list-item"
-            >
+            <li class="list-item menu__item list-item">
               <a class="black-link" href="#">О нас </a>
             </li>
           </ul>
@@ -64,7 +57,7 @@
 
         <a
           href="tel:+7 (966) 55 88 499"
-          class="nav-menu__contact-number black-link"
+          class="menu__contact-number black-link"
         >
           <img src="./src/icons/phone.svg" alt="phone call" />+7 (966) 55 88 499
         </a>
@@ -81,96 +74,95 @@
       </div>
     </header>
 
-    <section class="container hero-section">
-      <div class="hero-section__wrapper">
-        <div class="hero-section__cards-wrapper">
-          <div class="cards-wrapper__card card">
-            <img
-              class="card__img"
-              src="./src/img/hero-lock-1.png"
-              alt="locker img"
-            />
-
-            <div class="card__description-block">
-              <h1 class="card__title title">
-                Golden Soft
-                <br />
-                GS-200Z-5 для офиса
-              </h1>
-
-              <div class="card__product-description">
-                <p class="product-description__paragraph">
-                  Замок дверной электронный Golden Soft GS-200Z-5 имеет
-                  роскошный глянцевый блеск, четкие линии, красивые формы.
-                </p>
-
-                <p class="product-description__paragraph">
-                  Подходит для установки на деревянную/межкомнатную дверь.
-                </p>
-              </div>
-
-              <div class="card__subtitle subtitle">
-                <p class="card__price-text">Цена</p>
-
-                <div class="card__prices">
-                  <p class="card__new-price price">33 000₽</p>
-                  <p class="card__old-price price">37 000₽</p>
-                </div>
-                <a class="card__button button" href="#">Добавить в корзину</a>
-              </div>
-            </div>
-          </div>
-          <div class="card_scroll-block scroll-block">
-            <a href="#">
-              <img src="./src/icons/left-arrow.svg" alt="left arrow" />
-            </a>
-            <div class="scroll-dots">
-              <div class="small-dot"></div>
-
-              <div class="scroll-block__ellipse ellipse">
-                <div class="big-dot"></div>
-              </div>
-
-              <div class="small-dot"></div>
-            </div>
-
-            <a href="#">
-              <img src="./src/icons/right-arrow.svg" alt="right arrow" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <main class="container main-section">
-      <section class="first-section__wrapper">
-        <div class="first-section__achievements">
+      <section class="hero">
+        <div class="hero__wrapper">
+          <div class="hero__cards-wrapper">
+            <div class="cards-wrapper__card card">
+              <img
+                class="card__img"
+                src="./src/img/hero-lock-1.png"
+                alt="locker img"
+              />
+
+              <div class="card__description-block">
+                <h1 class="card__title title">
+                  Golden Soft
+                  <br />
+                  GS-200Z-5 для офиса
+                </h1>
+
+                <div class="card__product-description">
+                  <p class="product-description__paragraph">
+                    Замок дверной электронный Golden Soft GS-200Z-5 имеет
+                    роскошный глянцевый блеск, четкие линии, красивые формы.
+                  </p>
+
+                  <p class="product-description__paragraph">
+                    Подходит для установки на деревянную/межкомнатную дверь.
+                  </p>
+                </div>
+
+                <div class="card__subtitle subtitle">
+                  <p class="card__price-text">Цена</p>
+
+                  <div class="card__prices">
+                    <span class="card__new-price price">33 000₽</span>
+                    <span class="card__old-price price">37 000₽</span>
+                  </div>
+                  <a class="card__button button" href="#">Добавить в корзину</a>
+                </div>
+              </div>
+            </div>
+            <div class="card_scroll-block scroll-block">
+              <a href="#">
+                <img src="./src/icons/left-arrow.svg" alt="left arrow" />
+              </a>
+              <div class="scroll-dots">
+                <div class="small-dot"></div>
+
+                <div class="scroll-block__ellipse ellipse">
+                  <div class="big-dot"></div>
+                </div>
+
+                <div class="small-dot"></div>
+              </div>
+
+              <a href="#">
+                <img src="./src/icons/right-arrow.svg" alt="right arrow" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advantages__wrapper">
+        <div class="advantages__achievements">
           <div class="achievements-item">
-            <h2 class="achievements-item__title title">5,567</h2>
-            <p class="achievements-item__subtitle">Счастливых клиентов</p>
+            <span class="achievements-item__title title">5,567</span>
+            <span class="achievements-item__subtitle">Счастливых клиентов</span>
           </div>
 
           <div class="achievements-item">
-            <h2 class="achievements-item__title title">372</h2>
-            <p class="achievements-item__subtitle">Продаж в день</p>
+            <span class="achievements-item__title title">372</span>
+            <span class="achievements-item__subtitle">Продаж в день</span>
           </div>
         </div>
 
-        <div class="first-section__achievements">
+        <div class="advantages__achievements">
           <div class="achievements-item">
-            <h2 class="achievements-item__title title">1245</h2>
-            <p class="achievements-item__subtitle">Продуктов на выбор</p>
+            <span class="achievements-item__title title">1245</span>
+            <span class="achievements-item__subtitle">Продуктов на выбор</span>
           </div>
 
           <div class="achievements-item">
-            <h2 class="achievements-item__title title">20</h2>
-            <p class="achievements-item__subtitle">Лет на рынке</p>
+            <span class="achievements-item__title title">20</span>
+            <span class="achievements-item__subtitle">Лет на рынке</span>
           </div>
         </div>
       </section>
 
-      <section class="second-section__wrapper">
-        <h2 class="second-section__title title">Почему GoldenService?</h2>
+      <section class="qualities__wrapper">
+        <h2 class="qualities__title title">Почему GoldenService?</h2>
         <div class="why-are-we__wrapper">
           <div class="why-are-we__card">
             <img
@@ -210,72 +202,67 @@
         </div>
       </section>
 
-      <section class="third-section__wrapper">
-        <h2 class="third-section__title title">Категории</h2>
+      <section class="categories__wrapper">
+        <h2 class="categories__title title">Категории</h2>
 
-        <div class="third-section__categories">
-          <div class="categories__wrapper">
-            <div class="categories__card">
-              <img
-                class="categories__card_img"
-                src="./src/img/for-hotels-nor.png"
-                alt="for hotels"
-              />
+        <div class="categories__container">
+          <div class="categories__card">
+            <img
+              class="categories__card_img"
+              src="./src/img/for-hotels-nor.png"
+              alt="for hotels"
+            />
 
-              <p class="categories__card_description">Для отелей</p>
-              <a class="card__description_button" href="#">Перейти</a>
-            </div>
-
-            <div class="categories__card">
-              <img
-                class="categories__card_img"
-                src="./src/img/for-lockers-nor.png"
-                alt="for lockers"
-              />
-
-              <p class="categories__card_description">Для шкафчиков</p>
-              <a class="card__description_button" href="#">Перейти</a>
-            </div>
+            <span class="categories__card_description">Для отелей</span>
+            <a class="card__description_button" href="#">Перейти</a>
           </div>
 
-          <div class="categories__wrapper">
-            <div class="categories__card">
-              <img
-                class="categories__card_img"
-                src="./src/img/for-offices-nor.png"
-                alt="for offices"
-              />
+          <div class="categories__card">
+            <img
+              class="categories__card_img"
+              src="./src/img/for-lockers-nor.png"
+              alt="for lockers"
+            />
 
-              <p class="categories__card_description">Для офисов</p>
-              <a class="card__description_button" href="#">Перейти</a>
-            </div>
-
-            <div class="categories__card">
-              <img
-                class="categories__card_img"
-                src="./src/img/accessories-nor.png"
-                alt="accessories"
-              />
-
-              <p class="categories__card_description">Аксессуары</p>
-              <a class="card__description_button" href="#">Перейти</a>
-            </div>
+            <span class="categories__card_description">Для шкафчиков</span>
+            <a class="card__description_button" href="#">Перейти</a>
           </div>
 
-          <a class="categories__card_button button" href="#">Все категории</a>
+          <div class="categories__card">
+            <img
+              class="categories__card_img"
+              src="./src/img/for-offices-nor.png"
+              alt="for offices"
+            />
+
+            <span class="categories__card_description">Для офисов</span>
+            <a class="card__description_button" href="#">Перейти</a>
+          </div>
+
+          <div class="categories__card">
+            <img
+              class="categories__card_img"
+              src="./src/img/accessories-nor.png"
+              alt="accessories"
+            />
+
+            <span class="categories__card_description">Аксессуары</span>
+            <a class="card__description_button" href="#">Перейти</a>
+          </div>
         </div>
+        <a class="categories__card_button button" href="#">Все категории</a>
       </section>
 
-      <section class="fourth-section__wrapper">
-        <div class="fourth-section__title-block">
-          <h2 class="fourth-section__title title">Наши популярные продукты</h2>
-          <div class="fourth-section__nav-arrows">
+      <section class="popular__wrapper">
+        <div class="popular__title-block">
+          <h2 class="popular__title title">Наши популярные продукты</h2>
+          <div class="popular__nav-arrows">
             <a href="#"><img src="./src/icons/left-arrow.svg" alt="" /></a>
             <a href="#"><img src="./src/icons/right-arrow.svg" alt="" /></a>
           </div>
         </div>
 
-        <div class="fourth-section__popular-cards">
+        <div class="popular__popular-cards">
           <a href="#" class="popular__card black-link">
             <div class="popular__card_sale">SALE</div>
 
@@ -308,8 +295,8 @@
               </p>
 
               <div class="popular__card_prices">
-                <p class="popular__card_new-price price">33 000₽</p>
-                <p class="popular__card_old-price price">37 000₽</p>
+                <span class="popular__card_new-price price">33 000₽</span>
+                <span class="popular__card_old-price price">37 000₽</span>
               </div>
             </div>
           </a>
@@ -346,8 +333,8 @@
               </p>
 
               <div class="popular__card_prices">
-                <p class="popular__card_new-price price">7 000₽</p>
-                <p class="popular__card_old-price price">8 000₽</p>
+                <span class="popular__card_new-price price">7 000₽</span>
+                <span class="popular__card_old-price price">8 000₽</span>
               </div>
             </div>
           </a>
@@ -384,8 +371,8 @@
               </p>
 
               <div class="popular__card_prices">
-                <p class="popular__card_new-price price">33 000₽</p>
-                <p class="popular__card_old-price price">39 000₽</p>
+                <span class="popular__card_new-price price">33 000₽</span>
+                <span class="popular__card_old-price price">39 000₽</span>
               </div>
             </div>
           </a>
@@ -422,23 +409,23 @@
               </p>
 
               <div class="popular__card_prices">
-                <p class="popular__card_new-price price">9 000₽</p>
-                <p class="popular__card_old-price price">12 000₽</p>
+                <span class="popular__card_new-price price">9 000₽</span>
+                <span class="popular__card_old-price price">12 000₽</span>
               </div>
             </div>
           </a>
         </div>
       </section>
 
-      <section class="fifth-section__wrapper">
-        <h2 class="fifth-section__title title">Мы Вам перезвоним</h2>
+      <section class="callback__wrapper">
+        <h2 class="callback__title title">Мы Вам перезвоним</h2>
 
-        <p class="fifth-section__subtitle">
+        <p class="callback__subtitle">
           Если у вас возникли какие-то вопросы или проблемы, заполните форму и
           мы Вам перезвоним.
         </p>
 
-        <div class="fifth-section__forms">
+        <div class="callback__forms">
           <form class="forms__user-name" method="get">
             <input type="text" placeholder="Ваше имя" name="text" value="" />
           </form>
@@ -456,11 +443,9 @@
       <div class="footer-section__wrapper">
         <div class="footer-section__main-blocks">
           <div class="footer-section__communication">
-            <div class="footer-section__logo logo">
-              <a href="#">
-                <img src="./src/icons/brand-logo.svg" alt="logo" />
-              </a>
-            </div>
+            <a class="logo" href="#">
+              <img src="./src/icons/brand-logo.svg" alt="logo" />
+            </a>
 
             <div class="footer-section__socials">
               <a href="#">
@@ -477,48 +462,48 @@
             </div>
           </div>
 
-          <nav class="footer-section__nav-menu">
-            <div class="nav-menu__wrapper">
-              <ul class="nav-menu__list footer__nav-menu_list">
-                <h3 class="nav-menu__list_title nav-title">Навигация</h3>
+          <nav class="footer-section__menu">
+            <div class="menu__wrapper">
+              <ul class="menu__list list">
+                <p class="menu__list_title nav-title">Навигация</p>
 
-                <li class="nav-menu__list-item list-item">
+                <li class="menu__item list-item">
                   <a href="#"> Главная</a>
                 </li>
 
-                <li class="nav-menu__list-item list-item">
+                <li class="menu__item list-item">
                   <a href="#"> Каталог</a>
                 </li>
 
-                <li class="nav-menu__list-item list-item">
+                <li class="menu__item list-item">
                   <a href="#"> Оптовая продажа</a>
                 </li>
 
-                <li class="nav-menu__list-item list-item">
+                <li class="menu__item list-item">
                   <a href="#"> О нас</a>
                 </li>
               </ul>
 
-              <ul class="nav-menu__list footer__nav-menu_list">
-                <h3 class="nav-menu__list_title nav-title">Наши контакты</h3>
+              <ul class="menu__list list">
+                <p class="menu__list_title nav-title">Наши контакты</p>
 
-                <p class="nav-menu__text">Телефоны</p>
+                <p class="menu__text">Телефоны</p>
 
-                <li class="nav-menu__list-item list-item">
+                <li class="menu__item list-item">
                   <a href="tel:+7 (988) 565 00 38"> +7 (988) 565 00 38</a>
                 </li>
 
-                <li class="nav-menu__list-item list-item">
+                <li class="menu__item list-item">
                   <a href="tel:+375 33 662 82 56"> +375 33 662 82 56</a>
                 </li>
 
-                <p class="nav-menu__text">Email</p>
+                <p class="menu__text">Email</p>
 
-                <li class="nav-menu__list-item list-item">
+                <li class="menu__item list-item">
                   <a href="mailto:vladpertcev@mail.ru"> vladpertcev@mail.ru</a>
                 </li>
 
-                <li class="nav-menu__list-item list-item">
+                <li class="menu__item list-item">
                   <a href="mailto:korobko416@gmail.com">
                     korobko416@gmail.com</a
                   >
@@ -526,31 +511,31 @@
               </ul>
             </div>
 
-            <div class="nav-menu__wrapper">
-              <ul class="nav-menu__list footer__nav-menu_list">
-                <h3 class="nav-menu__list_title nav-title">Информация</h3>
+            <div class="menu__wrapper">
+              <ul class="menu__list list">
+                <p class="menu__list_title nav-title">Информация</p>
 
-                <li class="nav-menu__list-item list-item">
+                <li class="menu__item list-item">
                   <a href="#"> Доставка и оплата</a>
                 </li>
 
-                <li class="nav-menu__list-item list-item">
+                <li class="menu__item list-item">
                   <a href="#"> Гарантии</a>
                 </li>
 
-                <li class="nav-menu__list-item list-item">
+                <li class="menu__item list-item">
                   <a href="#"> Возврат товара</a>
                 </li>
               </ul>
 
-              <ul class="nav-menu__list footer__nav-menu_list">
-                <h3 class="nav-menu__list_title nav-title">Наш адрес</h3>
+              <ul class="menu__list list">
+                <p class="menu__list_title nav-title">Наш адрес</p>
 
-                <li class="nav-menu__list-item list-item">
+                <li class="menu__item list-item">
                   Россия, Ростов-на-Дону ул. Богачева, 16
                 </li>
 
-                <li class="nav-menu__list-item list-item">
+                <li class="menu__item list-item">
                   Беларусь, Солигорск ул. Ленина, 10б
                 </li>
               </ul>

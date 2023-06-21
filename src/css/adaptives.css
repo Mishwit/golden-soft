@@ -77,7 +77,7 @@
     width: 370px;
   }
 
-  .first-section__achievements{
+  .advantages__achievements{
     flex-direction: row;
   }
 
@@ -156,7 +156,7 @@
     line-height: 24px;
   }
 
-  .first-section__achievements{
+  .advantages__achievements{
     flex-direction: row;
   }
 
@@ -204,7 +204,7 @@
     width: 450px;
   }
 
-  .second-section__wrapper{
+  .qualities__wrapper{
     min-height: 345px;
   }
 
@@ -229,13 +229,13 @@
     width: 280px;
   }
 
-  .fourth-section__title-block{
+  .popular__title-block{
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  .fourth-section__nav-arrows{
+  .popular__nav-arrows{
     display: flex;
     margin-right: 135px;
     gap: 40px;
@@ -273,11 +273,11 @@
     width: 500px;
   }
 
-  .first-section__wrapper{
+  .advantages__wrapper{
     gap: 80px;
   }
 
-  .first-section__achievements{
+  .advantages__achievements{
     gap: 80px;
   }
 
@@ -321,7 +321,7 @@
     left: 40px;
   }
 
-  .fourth-section__popular-cards{
+  .popular__popular-cards{
     margin-bottom: 100px;
   }
 
@@ -333,15 +333,15 @@
     width: 320px;
   }
 
-  .fifth-section__wrapper{
+  .callback__wrapper{
     min-height: 272px
   }
 
-  .fifth-section__subtitle{
+  .callback__subtitle{
     max-width: 401px;
   }
 
-  .fifth-section__forms{
+  .callback__forms{
     flex-direction: row;
   }
 
@@ -406,11 +406,11 @@
     margin-bottom: 40px;
   }
 
-  .fourth-section__wrapper {
+  .popular__wrapper {
     padding-left:100px ;
   }
 
-  .fifth-section__wrapper{
+  .callback__wrapper{
     padding: 64px 16px;
   }
 }
