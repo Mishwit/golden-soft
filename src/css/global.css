@@ -1,3 +1,40 @@
+:root{
+  --COLOR_BLACK:#161C24;
+  --COLOR_WHITE:#FFFFFF;
+  --COLOR_DARK: #454F5B;
+  --COLOR_GREY:#C4CDD5;
+  --COLOR_LIGHT_GREY:#A4A4A4;
+  --COLOR_BLUE: #4295E4;
+  --COLOR_LIGHT_BLUE: #ADD7FF;
+  --COLOR_BCG_BLUE: #F2F8FF;
+  --COLOR_BORDER_LIGHT_GREY:#EAEAEA;
+  --COLOR_BCG_DARK:#0D2436;
+
+  --FONT_SIZE_10: 10px;
+  --FONT_SIZE_12: 12px;
+  --FONT_SIZE_14: 14px;
+  --FONT_SIZE_18: 18px;
+  --FONT_SIZE_20: 20px;
+  --FONT_SIZE_22: 22px;
+  --FONT_SIZE_24: 24px;
+  --FONT_SIZE_28: 28px;
+  --FONT_SIZE_32: 32px;
+  --FONT_SIZE_38: 38px;
+  --FONT_SIZE_44: 44px;
+}
+
+@font-face {
+  font-family:'SF-Pro';
+  src: url(../fonts/SF-Pro-Display-Regular.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'SF-Pro-text';
+  src: url(../fonts/sf-pro-text-regular.ttf);
+  font-style: normal;
+}
+
 *{
   box-sizing: border-box;
 }
@@ -36,42 +73,4 @@ a:hover{
 
 .white-txt{
   color: var(--COLOR_WHITE);
-}
-
-:root{
-  --COLOR_BLACK:#161C24;
-  --COLOR_WHITE:#FFFFFF;
-  --COLOR_DARK: #454F5B;
-  --COLOR_GREY:#C4CDD5;
-  --COLOR_LIGHT_GREY:#A4A4A4;
-  --COLOR_BLUE: #4295E4;
-  --COLOR_LIGHT_BLUE: #ADD7FF;
-  --COLOR_BCG_BLUE: #F2F8FF;
-  --COLOR_BORDER_LIGHT_GREY:#EAEAEA;
-  --COLOR_BCG_DARK:#0D2436;
-
-  --FONT_SIZE_12: 12px;
-  --FONT_SIZE_14: 14px;
-  --FONT_SIZE_18: 18px;
-  --FONT_SIZE_20: 20px;
-  --FONT_SIZE_22: 22px;
-  --FONT_SIZE_24: 24px;
-
-  --FONT_SIZE_28: 28px;
-  --FONT_SIZE_32: 32px;
-  --FONT_SIZE_38: 38px;
-  --FONT_SIZE_44: 44px;
-
-}
-
-@font-face {
-  font-family:'SF-Pro';
-  src: url(../fonts/SF-Pro-Display-Regular.ttf);
-  font-style: normal;
-}
-
-@font-face {
-  font-family:'SF-Pro-text';
-  src: url(../fonts/sf-pro-text-regular.ttf);
-  font-style: normal;
 }

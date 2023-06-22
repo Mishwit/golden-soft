@@ -1,9 +1,5 @@
 @media all and (min-width:414px){
 
-  /* .container{
-    max-width: 414px;
-  } */
-
   .card__img{
     height: 365px;
     width: 365px;
@@ -41,20 +37,16 @@
     width: 161px;
   }
 
-  form{
+  /* form{
     width: 365px;
-  }
+  } */
 
-  input{
+  /* input{
     width: 333px;
-  }
+  } */
 }
 
 @media all and (min-width:640px){
-
-  /* .container{
-    min-width: 639px;
-  } */
 
   .title{
     font-size: var(--FONT_SIZE_22);
@@ -102,10 +94,6 @@
 }
 
 @media all and (min-width:768px){
-
-  /* .container{
-    min-width: 768px;
-  } */
 
   .title{
     font-size: var(--FONT_SIZE_28);
@@ -184,16 +172,12 @@
     margin-bottom: 0;
   }
 
-  .forms__button{
+  /* .forms__button{
     width: 365px;
-  }
+  } */
 }
 
 @media all and (min-width:1024px){
-
-  /* .container{
-    min-width: 1024px;
-  } */
 
   .card{
     margin-bottom: 40px;
@@ -247,10 +231,6 @@
 }
 
 @media all and (min-width:1280px){
-
-  /* .container{
-    min-width: 1280px;
-  } */
 
   .title{
     font-size: var(--FONT_SIZE_38);
@@ -333,10 +313,6 @@
     width: 320px;
   }
 
-  .callback__wrapper{
-    min-height: 272px
-  }
-
   .callback__subtitle{
     max-width: 401px;
   }
@@ -345,24 +321,20 @@
     flex-direction: row;
   }
 
-  form{
+  /* form{
     width: 240px;
-  }
+  } */
 
-  input{
+  /* input{
     width: 208px;
-  }
+  } */
 
-  .forms__button{
+  /* .forms__button{
     width: 220px;
-  }
+  } */
 }
 
 @media all and (min-width:1536px){
-
-  /* .container{
-    min-width: 1440px;
-  } */
 
   .title{
     font-size: var(--FONT_SIZE_44);

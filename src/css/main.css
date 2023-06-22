@@ -25,8 +25,8 @@
 }
 
 .card__img{
-  height: 271px;
-  width: 271px;
+  height: 200px;
+  width: 180px;
   margin-bottom: 12px;
 }
 
@@ -74,8 +74,8 @@
 
 
 .button{
-  height: 50px;
-  width: 272px;
+  height: 40px;
+  width: 180px;
   background: var(--COLOR_BLUE);
   color: var(--COLOR_WHITE);
   display: flex;
@@ -121,7 +121,6 @@
 }
 
 .advantages__wrapper{
-  min-height: 155px;
   background-color: var(--COLOR_BCG_BLUE);
   padding: 30px 32px;
   display: flex;
@@ -153,7 +152,6 @@
 
 .qualities__wrapper{
   padding: 40px 16px;
-  min-height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -170,8 +168,7 @@
 }
 
 .why-are-we__card{
-  height: 180px;
-  width: 280px;
+  width: 180px;
   padding: 24px 28px;
   display: flex;
   flex-direction: column;
@@ -197,7 +194,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 550px;
   padding: 0 16px 40px 16px;
 }
 
@@ -216,6 +212,8 @@
 }
 
 .categories__card{
+  display: flex;
+  flex-direction: column;
   color: var(--COLOR_BLACK);
 }
 
@@ -237,7 +235,6 @@
 .popular__wrapper{
   display: flex;
   flex-direction: column;
-  min-height: 525px;
   padding-left: 16px;
   justify-content: center;
 }
@@ -359,7 +356,6 @@ display: flex;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 390px;
   background: var(--COLOR_BCG_BLUE);
   padding: 32px 16px;
 }
@@ -380,23 +376,29 @@ display: flex;
 .callback__forms{
   display: flex;
   flex-direction: column;
-  gap: 15px;
   align-items: center;
+  gap: 16px;
 }
 
 form{
   padding: 13px 16px;
-  width: 272px;
-  background: rgba(22, 28, 36, 0.04);
+  /* width: 272px; */
+
 }
 
 input{
-  height: 24px;
-  width: 240px;
+  padding: 5px 0 5px 16px;
+  width: 180px;
   background:  transparent;
   border: none;
   outline: none;
   font-size: var(--FONT_SIZE_14);
   line-height: 24px;
   color: var(--COLOR_DARK);
+  background: rgba(22, 28, 36, 0.04);
+}
+
+::placeholder{
+  font-size: var(--FONT_SIZE_14);
+
 }

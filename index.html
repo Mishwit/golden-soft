@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Golden soft - lock shop</title>
-    <link rel="stylesheet" href="./src/css/normalizes.css" />
-    <link rel="stylesheet" href="./src/css/resets.css" />
+    <link rel="stylesheet" href="./src/css/normalize+resets.css" />
     <link rel="stylesheet" href="./src/css/global.css" />
     <link rel="stylesheet" href="./src/css/header.css" />
     <link rel="stylesheet" href="./src/css/main.css" />
@@ -425,17 +424,24 @@
           мы Вам перезвоним.
         </p>
 
-        <div class="callback__forms">
-          <form class="forms__user-name" method="get">
-            <input type="text" placeholder="Ваше имя" name="text" value="" />
-          </form>
+        <form class="callback__forms">
+          <input
+            type="text"
+            placeholder="Ваше имя"
+            type="text"
+            name="text"
+            value=""
+          />
 
-          <form class="forms__user-email" action="" method="get">
-            <input type="text" placeholder="Ваш Email" name="text" value="" />
-          </form>
-
+          <input
+            type="text"
+            placeholder="Ваш Email"
+            type="text"
+            name="text"
+            value=""
+          />
           <a class="button forms__button" href="#">Отправить</a>
-        </div>
+        </form>
       </section>
     </main>
 
