@@ -3,6 +3,7 @@
   background: var(--COLOR_DARK);
   display: flex;
   justify-content: center;
+  gap: 155px;
 }
 
 .promo-text{
@@ -12,7 +13,6 @@
 .back-call{
   display: none;
   text-decoration: underline;
-  margin-right: 100px;
 }
 
 header .logo{
@@ -24,10 +24,11 @@ header .logo{
 }
 
 .header-wrapper{
-  padding: 23px 16px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 23px 16px;
+  gap: 50px;
   box-shadow: inset 0px -1px 0px var(--COLOR_GREY);
 }
 
@@ -99,10 +100,6 @@ header .menu__list{
     display: flex;
   }
 
-  .header-wrapper{
-    justify-content: space-around;
-  }
-
   .header__menu_list{
     flex-direction: row;
   }
@@ -118,11 +115,10 @@ header .menu__list{
 @media all and (min-width:1280px){
 
   .header__promo-block{
-    justify-content: flex-end;
+    justify-content: center;
   }
 
   .promo-text{
-    margin-right: 200px;
     letter-spacing: 0.12em;
     font-size: var(--FONT_SIZE_16);
   }

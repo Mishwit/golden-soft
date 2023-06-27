@@ -237,6 +237,7 @@
   flex-direction: column;
   padding-left: 16px;
   justify-content: center;
+  align-items: center;
 }
 
 .popular__title{
