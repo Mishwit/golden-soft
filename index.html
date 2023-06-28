@@ -14,14 +14,14 @@
   </head>
 
   <body>
-    <header class="container">
+    <header>
       <div class="header__promo-block">
         <p class="promo-text white-txt">
           Скидка 10% по промокоду “ZAMOK” на все заказы до 10.09
         </p>
         <a href="#" class="back-call white-txt">Обратный звонок</a>
       </div>
-      <div class="header-wrapper">
+      <div class="container header-content">
         <button class="hamburger">
           <span class="hamburger__item"></span>
           <span class="hamburger__item"></span>
@@ -73,9 +73,9 @@
       </div>
     </header>
 
-    <main class="container main-section">
+    <main class="main-section">
       <section class="hero">
-        <div class="hero__wrapper">
+        <div class="container hero__wrapper">
           <div class="hero__cards-wrapper">
             <div class="cards-wrapper__card card">
               <img
@@ -134,320 +134,335 @@
           </div>
         </div>
       </section>
-      <section class="advantages__wrapper">
-        <div class="advantages__achievements">
-          <div class="achievements-item">
-            <span class="achievements-item__title title">5,567</span>
-            <span class="achievements-item__subtitle">Счастливых клиентов</span>
+
+      <section class="advantages">
+        <div class="container advantages__wrapper">
+          <div class="advantages__achievements">
+            <div class="achievements-item">
+              <span class="achievements-item__title title">5,567</span>
+              <span class="achievements-item__subtitle"
+                >Счастливых клиентов</span
+              >
+            </div>
+
+            <div class="achievements-item">
+              <span class="achievements-item__title title">372</span>
+              <span class="achievements-item__subtitle">Продаж в день</span>
+            </div>
           </div>
 
-          <div class="achievements-item">
-            <span class="achievements-item__title title">372</span>
-            <span class="achievements-item__subtitle">Продаж в день</span>
-          </div>
-        </div>
+          <div class="advantages__achievements">
+            <div class="achievements-item">
+              <span class="achievements-item__title title">1245</span>
+              <span class="achievements-item__subtitle"
+                >Продуктов на выбор</span
+              >
+            </div>
 
-        <div class="advantages__achievements">
-          <div class="achievements-item">
-            <span class="achievements-item__title title">1245</span>
-            <span class="achievements-item__subtitle">Продуктов на выбор</span>
-          </div>
-
-          <div class="achievements-item">
-            <span class="achievements-item__title title">20</span>
-            <span class="achievements-item__subtitle">Лет на рынке</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="qualities__wrapper">
-        <h2 class="qualities__title title">Почему GoldenService?</h2>
-        <div class="why-are-we__wrapper">
-          <div class="why-are-we__card">
-            <img
-              class="why-are-we__img"
-              src="./src/icons/rufund.svg"
-              alt="refund"
-            />
-
-            <p class="why-are-we__descrition">
-              Возврат удвоенной стоимости каждого замка в случае брака.
-            </p>
-          </div>
-
-          <div class="why-are-we__card">
-            <img
-              class="why-are-we__img"
-              src="./src/icons/like.svg"
-              alt="refund"
-            />
-
-            <p class="why-are-we__descrition">
-              Наносим ваш логотип компании на наш продукт.
-            </p>
-          </div>
-
-          <div class="why-are-we__card">
-            <img
-              class="why-are-we__img"
-              src="./src/icons/rufund.svg"
-              alt="refund"
-            />
-
-            <p class="why-are-we__descrition">
-              Возврат удвоенной стоимости каждого замка в случае брака.
-            </p>
+            <div class="achievements-item">
+              <span class="achievements-item__title title">20</span>
+              <span class="achievements-item__subtitle">Лет на рынке</span>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="categories__wrapper">
-        <h2 class="categories__title title">Категории</h2>
-
-        <div class="categories__container">
-          <div class="categories__card">
-            <img
-              class="categories__card_img"
-              src="./src/img/for-hotels-nor.png"
-              alt="for hotels"
-            />
-
-            <span class="categories__card_description">Для отелей</span>
-            <a class="card__description_button" href="#">Перейти</a>
-          </div>
-
-          <div class="categories__card">
-            <img
-              class="categories__card_img"
-              src="./src/img/for-lockers-nor.png"
-              alt="for lockers"
-            />
-
-            <span class="categories__card_description">Для шкафчиков</span>
-            <a class="card__description_button" href="#">Перейти</a>
-          </div>
-
-          <div class="categories__card">
-            <img
-              class="categories__card_img"
-              src="./src/img/for-offices-nor.png"
-              alt="for offices"
-            />
-
-            <span class="categories__card_description">Для офисов</span>
-            <a class="card__description_button" href="#">Перейти</a>
-          </div>
-
-          <div class="categories__card">
-            <img
-              class="categories__card_img"
-              src="./src/img/accessories-nor.png"
-              alt="accessories"
-            />
-
-            <span class="categories__card_description">Аксессуары</span>
-            <a class="card__description_button" href="#">Перейти</a>
-          </div>
-        </div>
-        <a class="categories__card_button button" href="#">Все категории</a>
-      </section>
-
-      <section class="popular__wrapper">
-        <div class="popular__title-block">
-          <h2 class="popular__title title">Наши популярные продукты</h2>
-          <div class="popular__nav-arrows">
-            <a href="#"><img src="./src/icons/left-arrow.svg" alt="" /></a>
-            <a href="#"><img src="./src/icons/right-arrow.svg" alt="" /></a>
-          </div>
-        </div>
-
-        <div class="popular__popular-cards">
-          <a href="#" class="popular__card black-link">
-            <div class="popular__card_sale">SALE</div>
-
-            <div class="popular__card_availability-block">
-              <div class="availability-block__status">
-                <img src="./src/icons/check-mark.svg" alt="check mark" />
-              </div>
-
-              <p class="availability-block__text">В наличии</p>
-            </div>
-
-            <div class="popular__card_gift-block">
+      <section class="qualities">
+        <div class="container qualities__wrapper">
+          <h2 class="qualities__title title">Почему GoldenService?</h2>
+          <div class="why-are-we__wrapper">
+            <div class="why-are-we__card">
               <img
-                class="gift-block__img"
-                src="./src/icons/gift.svg"
-                alt="gift"
+                class="why-are-we__img"
+                src="./src/icons/rufund.svg"
+                alt="refund"
               />
-              <p class="gift-block__text">Подарок</p>
-            </div>
 
-            <img
-              class="popular__card_img"
-              src="./src/img/popular-1.png"
-              alt="Дверной Замок Golden Soft для отеля"
-            />
-
-            <div class="popular__card_text">
-              <p class="popular__card_description">
-                Дверной Замок Golden Soft для отеля
+              <p class="why-are-we__descrition">
+                Возврат удвоенной стоимости каждого замка в случае брака.
               </p>
-
-              <div class="popular__card_prices">
-                <span class="popular__card_new-price price">33 000₽</span>
-                <span class="popular__card_old-price price">37 000₽</span>
-              </div>
-            </div>
-          </a>
-
-          <a href="#" class="popular__card black-link">
-            <div class="popular__card_sale">SALE</div>
-
-            <div class="popular__card_availability-block">
-              <div class="availability-block__status">
-                <img src="./src/icons/cross.svg" alt="check mark" />
-              </div>
-
-              <p class="availability-block__text">Нет в наличии</p>
             </div>
 
-            <div class="popular__card_gift-block">
+            <div class="why-are-we__card">
               <img
-                class="gift-block__img"
-                src="./src/icons/gift.svg"
-                alt="gift"
+                class="why-are-we__img"
+                src="./src/icons/like.svg"
+                alt="refund"
               />
-              <p class="gift-block__text">Подарок</p>
-            </div>
 
-            <img
-              class="popular__card_img"
-              src="./src/img/popular-2.png"
-              alt="вариативный замок Golden Soft для отеля"
-            />
-
-            <div class="popular__card_text">
-              <p class="popular__card_description">
-                Вариативный замок Golden Soft для отеля
+              <p class="why-are-we__descrition">
+                Наносим ваш логотип компании на наш продукт.
               </p>
-
-              <div class="popular__card_prices">
-                <span class="popular__card_new-price price">7 000₽</span>
-                <span class="popular__card_old-price price">8 000₽</span>
-              </div>
-            </div>
-          </a>
-
-          <a href="#" class="popular__card black-link">
-            <div class="popular__card_sale">SALE</div>
-
-            <div class="popular__card_availability-block">
-              <div class="availability-block__status">
-                <img src="./src/icons/check-mark.svg" alt="check mark" />
-              </div>
-
-              <p class="availability-block__text">В наличии</p>
             </div>
 
-            <div class="popular__card_gift-block">
+            <div class="why-are-we__card">
               <img
-                class="gift-block__img"
-                src="./src/icons/gift.svg"
-                alt="gift"
+                class="why-are-we__img"
+                src="./src/icons/rufund.svg"
+                alt="refund"
               />
-              <p class="gift-block__text">Подарок</p>
-            </div>
 
-            <img
-              class="popular__card_img"
-              src="./src/img/popular-3.png"
-              alt="Дверной Замок Golden Soft для офиса"
-            />
-
-            <div class="popular__card_text">
-              <p class="popular__card_description">
-                Дверной Замок Golden Soft для офиса
+              <p class="why-are-we__descrition">
+                Возврат удвоенной стоимости каждого замка в случае брака.
               </p>
-
-              <div class="popular__card_prices">
-                <span class="popular__card_new-price price">33 000₽</span>
-                <span class="popular__card_old-price price">39 000₽</span>
-              </div>
             </div>
-          </a>
-
-          <a href="#" class="popular__card black-link">
-            <div class="popular__card_sale">SALE</div>
-
-            <div class="popular__card_availability-block">
-              <div class="availability-block__status">
-                <img src="./src/icons/check-mark.svg" alt="check mark" />
-              </div>
-
-              <p class="availability-block__text">В наличии</p>
-            </div>
-
-            <div class="popular__card_gift-block">
-              <img
-                class="gift-block__img"
-                src="./src/icons/gift.svg"
-                alt="gift"
-              />
-              <p class="gift-block__text">Подарок</p>
-            </div>
-
-            <img
-              class="popular__card_img"
-              src="./src/img/popular-4.png"
-              alt="Дверной Замок Golden Soft для офиса"
-            />
-
-            <div class="popular__card_text">
-              <p class="popular__card_description">
-                Дверной Замок Golden Soft для офиса
-              </p>
-
-              <div class="popular__card_prices">
-                <span class="popular__card_new-price price">9 000₽</span>
-                <span class="popular__card_old-price price">12 000₽</span>
-              </div>
-            </div>
-          </a>
+          </div>
         </div>
       </section>
 
-      <section class="callback__wrapper">
-        <h2 class="callback__title title">Мы Вам перезвоним</h2>
+      <section class="categories">
+        <div class="container categories__wrapper">
+          <h2 class="categories__title title">Категории</h2>
 
-        <p class="callback__subtitle">
-          Если у вас возникли какие-то вопросы или проблемы, заполните форму и
-          мы Вам перезвоним.
-        </p>
+          <div class="categories__container">
+            <div class="categories__card">
+              <img
+                class="categories__card_img"
+                src="./src/img/for-hotels-nor.png"
+                alt="for hotels"
+              />
 
-        <form class="callback__forms">
-          <input
-            type="text"
-            placeholder="Ваше имя"
-            type="text"
-            name="text"
-            value=""
-          />
+              <span class="categories__card_description">Для отелей</span>
+              <a class="card__description_button" href="#">Перейти</a>
+            </div>
 
-          <input
-            type="text"
-            placeholder="Ваш Email"
-            type="text"
-            name="text"
-            value=""
-          />
-          <a class="button forms__button" href="#">Отправить</a>
-        </form>
+            <div class="categories__card">
+              <img
+                class="categories__card_img"
+                src="./src/img/for-lockers-nor.png"
+                alt="for lockers"
+              />
+
+              <span class="categories__card_description">Для шкафчиков</span>
+              <a class="card__description_button" href="#">Перейти</a>
+            </div>
+
+            <div class="categories__card">
+              <img
+                class="categories__card_img"
+                src="./src/img/for-offices-nor.png"
+                alt="for offices"
+              />
+
+              <span class="categories__card_description">Для офисов</span>
+              <a class="card__description_button" href="#">Перейти</a>
+            </div>
+
+            <div class="categories__card">
+              <img
+                class="categories__card_img"
+                src="./src/img/accessories-nor.png"
+                alt="accessories"
+              />
+
+              <span class="categories__card_description">Аксессуары</span>
+              <a class="card__description_button" href="#">Перейти</a>
+            </div>
+          </div>
+          <a class="categories__card_button button" href="#">Все категории</a>
+        </div>
+      </section>
+
+      <section class="popular">
+        <div class="container popular__wrapper">
+          <div class="popular__title-block">
+            <h2 class="popular__title title">Наши популярные продукты</h2>
+            <div class="popular__nav-arrows">
+              <a href="#"><img src="./src/icons/left-arrow.svg" alt="" /></a>
+              <a href="#"><img src="./src/icons/right-arrow.svg" alt="" /></a>
+            </div>
+          </div>
+
+          <div class="popular__popular-cards">
+            <a href="#" class="popular__card black-link">
+              <div class="popular__card_sale">SALE</div>
+
+              <div class="popular__card_availability-block">
+                <div class="availability-block__status">
+                  <img src="./src/icons/check-mark.svg" alt="check mark" />
+                </div>
+
+                <p class="availability-block__text">В наличии</p>
+              </div>
+
+              <div class="popular__card_gift-block">
+                <img
+                  class="gift-block__img"
+                  src="./src/icons/gift.svg"
+                  alt="gift"
+                />
+                <p class="gift-block__text">Подарок</p>
+              </div>
+
+              <img
+                class="popular__card_img"
+                src="./src/img/popular-1.png"
+                alt="Дверной Замок Golden Soft для отеля"
+              />
+
+              <div class="popular__card_text">
+                <p class="popular__card_description">
+                  Дверной Замок Golden Soft для отеля
+                </p>
+
+                <div class="popular__card_prices">
+                  <span class="popular__card_new-price price">33 000₽</span>
+                  <span class="popular__card_old-price price">37 000₽</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="popular__card black-link">
+              <div class="popular__card_sale">SALE</div>
+
+              <div class="popular__card_availability-block">
+                <div class="availability-block__status">
+                  <img src="./src/icons/cross.svg" alt="check mark" />
+                </div>
+
+                <p class="availability-block__text">Нет в наличии</p>
+              </div>
+
+              <div class="popular__card_gift-block">
+                <img
+                  class="gift-block__img"
+                  src="./src/icons/gift.svg"
+                  alt="gift"
+                />
+                <p class="gift-block__text">Подарок</p>
+              </div>
+
+              <img
+                class="popular__card_img"
+                src="./src/img/popular-2.png"
+                alt="вариативный замок Golden Soft для отеля"
+              />
+
+              <div class="popular__card_text">
+                <p class="popular__card_description">
+                  Вариативный замок Golden Soft для отеля
+                </p>
+
+                <div class="popular__card_prices">
+                  <span class="popular__card_new-price price">7 000₽</span>
+                  <span class="popular__card_old-price price">8 000₽</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="popular__card black-link">
+              <div class="popular__card_sale">SALE</div>
+
+              <div class="popular__card_availability-block">
+                <div class="availability-block__status">
+                  <img src="./src/icons/check-mark.svg" alt="check mark" />
+                </div>
+
+                <p class="availability-block__text">В наличии</p>
+              </div>
+
+              <div class="popular__card_gift-block">
+                <img
+                  class="gift-block__img"
+                  src="./src/icons/gift.svg"
+                  alt="gift"
+                />
+                <p class="gift-block__text">Подарок</p>
+              </div>
+
+              <img
+                class="popular__card_img"
+                src="./src/img/popular-3.png"
+                alt="Дверной Замок Golden Soft для офиса"
+              />
+
+              <div class="popular__card_text">
+                <p class="popular__card_description">
+                  Дверной Замок Golden Soft для офиса
+                </p>
+
+                <div class="popular__card_prices">
+                  <span class="popular__card_new-price price">33 000₽</span>
+                  <span class="popular__card_old-price price">39 000₽</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="popular__card black-link">
+              <div class="popular__card_sale">SALE</div>
+
+              <div class="popular__card_availability-block">
+                <div class="availability-block__status">
+                  <img src="./src/icons/check-mark.svg" alt="check mark" />
+                </div>
+
+                <p class="availability-block__text">В наличии</p>
+              </div>
+
+              <div class="popular__card_gift-block">
+                <img
+                  class="gift-block__img"
+                  src="./src/icons/gift.svg"
+                  alt="gift"
+                />
+                <p class="gift-block__text">Подарок</p>
+              </div>
+
+              <img
+                class="popular__card_img"
+                src="./src/img/popular-4.png"
+                alt="Дверной Замок Golden Soft для офиса"
+              />
+
+              <div class="popular__card_text">
+                <p class="popular__card_description">
+                  Дверной Замок Golden Soft для офиса
+                </p>
+
+                <div class="popular__card_prices">
+                  <span class="popular__card_new-price price">9 000₽</span>
+                  <span class="popular__card_old-price price">12 000₽</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="callback">
+        <div class="callback__wrapper">
+          <h2 class="callback__title title">Мы Вам перезвоним</h2>
+
+          <p class="callback__subtitle">
+            Если у вас возникли какие-то вопросы или проблемы, заполните форму и
+            мы Вам перезвоним.
+          </p>
+
+          <form class="callback__forms">
+            <input
+              type="text"
+              placeholder="Ваше имя"
+              type="text"
+              name="text"
+              value=""
+            />
+
+            <input
+              type="text"
+              placeholder="Ваш Email"
+              type="text"
+              name="text"
+              value=""
+            />
+            <a class="button forms__button" href="#">Отправить</a>
+          </form>
+        </div>
       </section>
     </main>
 
-    <footer class="container footer-section">
+    <footer class="footer-section">
       <div class="footer-section__wrapper">
-        <div class="footer-section__main-blocks">
+        <div class="container footer-section__main-blocks">
           <div class="footer-section__communication">
             <a class="logo" href="#">
               <img src="./src/icons/brand-logo.svg" alt="logo" />

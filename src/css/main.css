@@ -1,6 +1,5 @@
 .hero{
-  max-height: 675px;
-  padding: 20px 16px;
+  padding: 20px 16px 44px 16px;
 }
 
 .hero__cards-wrapper{
@@ -15,26 +14,27 @@
   align-items: center;
 }
 
+.card__img{
+  height: 275px;
+  width: 260px;
+  margin-bottom: 10px;
+}
+
 .card__description-block{
   display: flex;
   flex-direction: column;
+  min-width: 328px;
 }
 
 .card__product-description{
   display: none;
 }
 
-.card__img{
-  height: 200px;
-  width: 180px;
-  margin-bottom: 12px;
-}
-
 .card__title{
-  margin-bottom: 24px;
+  margin-bottom: 22px;
   line-height: 34px;
   letter-spacing: 1px;
-  font-size: var(--FONT_SIZE_18);
+  font-size: var(--FONT_SIZE_22);
 }
 
 .card__subtitle{
@@ -45,11 +45,7 @@
   line-height: 22px;
   font-size: var(--FONT_SIZE_12);
   color: var(--COLOR_DARK);
-  margin-bottom: 5px;
-}
-
-.price{
-  font-size: var(--FONT_SIZE_18);
+  margin-bottom: 4px;
 }
 
 .card__prices{
@@ -63,19 +59,18 @@
 .card__new-price{
   color: var(--COLOR_BLACK);
   line-height: 21px;
+  font-weight: var(--FONT_WEIGHT_600);
 }
 
 .card__old-price{
   font-size: var(--FONT_SIZE_14);
   color: var(--COLOR_LIGHT_GREY);
   text-decoration: line-through;
-  line-height: 17px;
 }
 
-
 .button{
-  height: 40px;
-  width: 180px;
+  height: 50px;
+  width: 343px;
   background: var(--COLOR_BLUE);
   color: var(--COLOR_WHITE);
   display: flex;
@@ -86,7 +81,7 @@
 .card_scroll-block{
   display: flex;
   justify-content: space-between;
-  width: 270px;
+  width: 100%;
 }
 
 .scroll-dots{
@@ -120,24 +115,28 @@
   background-color: var(--COLOR_BLUE);
 }
 
-.advantages__wrapper{
+.advantages{
   background-color: var(--COLOR_BCG_BLUE);
+}
+
+.advantages__wrapper{
   padding: 30px 32px;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 35px;
 }
 
 .advantages__achievements{
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 22px;
 }
 
 .achievements-item{
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
 
 .achievements-item__title{
@@ -150,25 +149,31 @@
   color: var(--COLOR_DARK);
 }
 
+.qualities{
+
+}
+
 .qualities__wrapper{
   padding: 40px 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px;
 }
 
 .qualities__title{
   text-align: center;
+  line-height: 39px;
+  padding-bottom: 21px;
 }
 
 .why-are-we__wrapper{
+  display: flex;
   gap: 30px;
+  flex-direction: column;
 }
 
 .why-are-we__card{
-  width: 180px;
   padding: 24px 28px;
   display: flex;
   flex-direction: column;
@@ -182,11 +187,13 @@
 }
 
 .why-are-we__descrition{
+  max-width: 280px;
   text-align: center;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: var(--FONT_WEIGHT_600);
+  font-size: var(--FONT_SIZE_16);
   line-height: 26px;
   color: var(--COLOR_DARK);
+  letter-spacing: 1.3px;
 }
 
 .categories__wrapper{
@@ -328,11 +335,6 @@ display: flex;
   line-height: 26px;
   color: var(--COLOR_DARK);
   margin-bottom: 10px;
-}
-
-.price{
-  font-size: var(--FONT_SIZE_18);
-
 }
 
 .popular__card_new-price{

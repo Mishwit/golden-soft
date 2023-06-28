@@ -1,13 +1,18 @@
+header{
+  box-shadow: inset 0px -1px 0px var(--COLOR_GREY);
+}
+
 .header__promo-block{
-  padding: 12px 20px;
+  padding: 12px 0;
   background: var(--COLOR_DARK);
   display: flex;
   justify-content: center;
-  gap: 155px;
 }
 
 .promo-text{
-  font-size: var(--FONT_SIZE_10);
+  font-size: var(--FONT_SIZE_12);
+  line-height: 12px;
+  letter-spacing: 0.24px;
 }
 
 .back-call{
@@ -23,13 +28,11 @@ header .logo{
   display: flex;
 }
 
-.header-wrapper{
+.header-content{
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 23px 16px;
-  gap: 50px;
-  box-shadow: inset 0px -1px 0px var(--COLOR_GREY);
+  justify-content: space-between;
+  padding: 18px 16px;
 }
 
 .menu{
@@ -45,8 +48,8 @@ header .menu__list{
 .hamburger{
   background: none;
   border: none;
-  width: 24px;
-  height: 14px;
+  width: 35px;
+  height: 18px;
   z-index: 30;
 }
 
@@ -57,6 +60,7 @@ header .menu__list{
   background: black;
   margin-bottom: 4px;
   transition: 0.2s all;
+  border-radius: 5px;
 }
 
 .hamburger__item:last-child{
@@ -75,7 +79,7 @@ header .menu__list{
 .header__icons-block{
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 13px;
 }
 
 .icons-block__icons{

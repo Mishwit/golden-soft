@@ -13,6 +13,7 @@
   --FONT_SIZE_10: 10px;
   --FONT_SIZE_12: 12px;
   --FONT_SIZE_14: 14px;
+  --FONT_SIZE_16: 16px;
   --FONT_SIZE_18: 18px;
   --FONT_SIZE_20: 20px;
   --FONT_SIZE_22: 22px;
@@ -21,6 +22,8 @@
   --FONT_SIZE_32: 32px;
   --FONT_SIZE_38: 38px;
   --FONT_SIZE_44: 44px;
+
+  --FONT_WEIGHT_600: 600;
 }
 
 @font-face {
@@ -59,13 +62,15 @@ a:hover{
 
 .title{
   font-weight: 600;
-  font-size: var(--FONT_SIZE_20);
+  font-size: var(--FONT_SIZE_22);
   line-height: 34px;
   color: var(--COLOR_BLACK);
+  letter-spacing: 1.7px;
 }
 
 .container{
   position: relative;
+  max-width: 1480px;
   margin: 0 auto;
   overflow: hidden;
 }
