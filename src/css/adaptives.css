@@ -3,7 +3,6 @@
   .card__img{
     height: 365px;
     width: 365px;
-
   }
 
   .card__product-description{
@@ -19,12 +18,7 @@
   }
 
   .button{
-    height: 50px;
-    width: 365px;
-  }
-
-  .card_scroll-block{
-   width: 327px;
+    width: 343px;
   }
 
   .why-are-we__card{
@@ -32,18 +26,21 @@
     width: 365px;
   }
 
-  .categories__card_img{
-    height: 161px;
-    width: 161px;
+  .menu-wrapper{
+    gap: 40px;
   }
 
-  /* form{
-    width: 365px;
-  } */
+  .nav-title{
+    font-size: var(--FONT_SIZE_20);
+  }
 
-  /* input{
-    width: 333px;
-  } */
+  .list-item{
+    font-size: var(--FONT_SIZE_14);
+  }
+
+  input{
+    width: 343px;
+  }
 }
 
 @media all and (min-width:640px){
@@ -66,7 +63,8 @@
   }
 
   .card_scroll-block{
-    width: 370px;
+    justify-content: center;
+    gap: 24px;
   }
 
   .advantages__achievements{
@@ -108,15 +106,6 @@
     max-width: 220px;
   }
 
-  .button{
-    width: 220px;
-  }
-
-  .card_scroll-block{
-    width: 200px;
-    justify-content: space-evenly;
-  }
-
   .card__title{
     margin-bottom: 12px;
   }
@@ -128,6 +117,10 @@
 
   .card__img{
     margin-right: 35px;
+  }
+
+  .card__button{
+    width: auto;
   }
 
   .card__product-description{
@@ -209,24 +202,15 @@
     height: 380px;
   }
 
-  .popular__card_img{
-    width: 280px;
-  }
-
   .popular__title-block{
     display: flex;
     gap: 100px;
-    align-items: center;
+    justify-content: space-between;
   }
 
   .popular__nav-arrows{
     display: flex;
-    margin-right: 135px;
     gap: 40px;
-  }
-
-  .popular__card{
-    height: 450px;
   }
 }
 
@@ -241,7 +225,7 @@
   }
 
   .card__product-description{
-    max-width: 255px;
+    max-width: 276px;
   }
 
   .product-description__paragraph{
@@ -305,12 +289,10 @@
     margin-bottom: 100px;
   }
 
-  .popular__card{
-    height: 450px;
-  }
-
   .popular__card_img{
-    width: 320px;
+    min-width: 0;
+    width: 100%;
+    max-height: 320px;
   }
 
   .callback__subtitle{
@@ -320,18 +302,6 @@
   .callback__forms{
     flex-direction: row;
   }
-
-  /* form{
-    width: 240px;
-  } */
-
-  /* input{
-    width: 208px;
-  } */
-
-  /* .forms__button{
-    width: 220px;
-  } */
 }
 
 @media all and (min-width:1536px){
@@ -342,8 +312,10 @@
   }
 
   .card__img{
-    height: 530px;
-    width: 530px;
+    position: relative;
+    left: -42px;
+    height: 506px;
+    width: 486px;
   }
 
   .card__new-price{

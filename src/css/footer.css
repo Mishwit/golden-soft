@@ -1,29 +1,29 @@
 .footer-section__wrapper{
   display: flex;
   flex-direction: column;
-  min-height: 585px;
   background: var(--COLOR_BCG_DARK);
   padding: 32px 16px;
   justify-content: center;
+  letter-spacing: 1px;
 }
 
 .footer-section__communication{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 19px;
 }
 
 .footer-section__socials{
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 32px;
 }
 
 .menu__wrapper{
   display: flex;
   margin-bottom: 24px;
-  justify-content: space-between;
+  gap: 19px;
 }
 
 .menu__text{
@@ -38,24 +38,15 @@ footer .menu__list{
   gap: 12px;
 }
 
-footer .menu_list{
-  flex-direction: column;
-}
-
-footer .menu_list:last-child{
-  margin-right: 0;
-  max-width: 143px;
-}
-
 .nav-title{
   color: var(--COLOR_WHITE);
-  font-size: var(--FONT_SIZE_20);
+  font-size: var(--FONT_SIZE_18);
   line-height: 34px;
 }
 
 .list-item{
   color: var(--COLOR_WHITE);
-  font-size: var(--FONT_SIZE_14);
+  font-size: var(--FONT_SIZE_12);
   line-height: 24px;
 }
 
@@ -68,7 +59,7 @@ footer .menu_list:last-child{
 .footer__line{
   border: 1px solid var(--COLOR_DARK);
   margin-bottom: 16px;
-  width: 271px;
+  width: 100%;
 }
 
 .footer__copyright{
@@ -80,8 +71,8 @@ footer .menu_list:last-child{
 
 @media all and (min-width:414px){
 
-  .footer__line{
-    width: 365px;
+  .menu__wrapper{
+    gap: 70px;
   }
 }
 
@@ -94,17 +85,9 @@ footer .menu_list:last-child{
   .menu__wrapper{
     justify-content: space-evenly;
   }
-
-  .footer__line{
-    width: 592px;
-  }
 }
 
 @media all and (min-width:768px){
-
-  .footer__line{
-    width: 720px;
-  }
 }
 
 @media all and (min-width:1024px){
@@ -135,10 +118,6 @@ footer .menu_list:last-child{
   .footer__menu_list:last-child{
     max-width: none;
   }
-
-  .footer__line{
-    width: 780px;
-  }
 }
 
 @media all and (min-width:1280px){
@@ -155,10 +134,6 @@ footer .menu_list:last-child{
 
   .list-item{
     font-size: var(--FONT_SIZE_16);
-  }
-
-  .footer__line {
-    width: 1100px;
   }
 
   .footer__copyright{

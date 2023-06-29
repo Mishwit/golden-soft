@@ -10,7 +10,7 @@ header{
 }
 
 .promo-text{
-  font-size: var(--FONT_SIZE_12);
+  font-size: var(--FONT_SIZE_10);
   line-height: 12px;
   letter-spacing: 0.24px;
 }
@@ -31,7 +31,7 @@ header .logo{
 .header-content{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 18px 16px;
 }
 
@@ -90,6 +90,13 @@ header .menu__list{
   align-items: center;
 }
 
+@media all and (min-width:414px){
+
+  .promo-text{
+    font-size: var(--FONT_SIZE_12);
+  }
+}
+
 @media all and (min-width:768px){
 
   .hamburger{
@@ -119,7 +126,7 @@ header .menu__list{
 @media all and (min-width:1280px){
 
   .header__promo-block{
-    justify-content: center;
+    gap: 100px;
   }
 
   .promo-text{
@@ -134,7 +141,8 @@ header .menu__list{
 
 @media all and (min-width:1536px){
 
-  .header__menu_list-item{
+  header .list-item{
+    letter-spacing: 1px;
     font-size: var(--FONT_SIZE_20);
   }
 
