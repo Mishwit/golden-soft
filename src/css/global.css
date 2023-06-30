@@ -1,14 +1,17 @@
 :root{
-  --COLOR_BLACK:#161C24;
-  --COLOR_WHITE:#FFFFFF;
-  --COLOR_DARK: #454F5B;
-  --COLOR_GREY:#C4CDD5;
-  --COLOR_LIGHT_GREY:#A4A4A4;
-  --COLOR_BLUE: #4295E4;
-  --COLOR_LIGHT_BLUE: #ADD7FF;
-  --COLOR_BCG_BLUE: #F2F8FF;
-  --COLOR_BORDER_LIGHT_GREY:#EAEAEA;
-  --COLOR_BCG_DARK:#0D2436;
+  --COLOR_BLACK: rgba(22, 28, 36, 1);
+  --COLOR_LIGHT_BLACK: rgba(22, 28, 36, 0.04);
+  --COLOR_WHITE: rgba(255, 255, 255, 1);
+  --COLOR_WHITE_LIGHT: rgba(250, 250, 250, 1);
+  --COLOR_DARK: rgba(69, 79, 91, 1);
+  --COLOR_GREY: rgba(196, 205, 213, 1);
+  --COLOR_LIGHT_GREY: rgba(164, 164, 164, 1);
+  --COLOR_BLUE: rgba(66, 149, 228, 1);
+  --COLOR_LIGHT_BLUE: rgba(173, 215, 255, 1);
+  --COLOR_BCG_BLUE: rgba(242, 248, 255, 1);
+  --COLOR_BORDER_LIGHT_GREY :rgba(234, 234, 234, 1);
+  --COLOR_BCG_DARK: rgba(13, 36, 54, 1);
+  --COLOR_SHADOW: rgba(0, 0, 0, 0.03);
 
   --FONT_SIZE_10: 10px;
   --FONT_SIZE_12: 12px;
@@ -23,6 +26,7 @@
   --FONT_SIZE_38: 38px;
   --FONT_SIZE_44: 44px;
 
+  --FONT_WEIGHT_300: 300;
   --FONT_WEIGHT_600: 600;
 }
 
@@ -46,6 +50,10 @@ html{
   font-family: "SF-Pro";
 }
 
+header{
+  box-shadow: inset 0px -1px 0px var(--COLOR_GREY);
+}
+
 main{
   overflow: hidden;
 }
@@ -57,15 +65,54 @@ a{
 
 a:hover{
   color: var(--COLOR_BLUE);
-  transition: 0.3s;
+  transition: 0.5s;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+}
+
+.button{
+  height: 50px;
+  width: 270px;
+  background: var(--COLOR_BLUE);
+  color: var(--COLOR_WHITE);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
 }
 
 .button:hover{
-  color: var(--COLOR_WHITE);
+  color: var(--COLOR_DARK);
+  transition: 0.5s;
+  background-color: var(--COLOR_LIGHT_BLUE);
+}
+
+form{
+  padding: 13px 16px;
+}
+
+input{
+  padding: 13px 0 13px 16px;
+  width: 270px;
+  border: none;
+  outline: none;
+  font-size: var(--FONT_SIZE_14);
+  line-height: 24px;
+  color: var(--COLOR_DARK);
+  background: var(--COLOR_LIGHT_BLACK);
+  letter-spacing: 1px;
+}
+
+::placeholder{
+  font-size: var(--FONT_SIZE_14);
 }
 
 .title{
-  font-weight: 600;
+  font-weight: var(--FONT_WEIGHT_600);
   font-size: var(--FONT_SIZE_18);
   line-height: 34px;
   color: var(--COLOR_BLACK);
@@ -80,4 +127,46 @@ a:hover{
 
 .white-txt{
   color: var(--COLOR_WHITE);
+}
+
+@media all and (min-width:414px) {
+
+  input{
+    width: 343px;
+  }
+
+  .button{
+    width: 343px;
+  }
+}
+
+@media all and (min-width:640px) {
+
+  .title{
+    font-size: var(--FONT_SIZE_28);
+  }
+
+}
+
+@media all and (min-width:768px) {
+
+
+}
+
+@media all and (min-width:1024px) {
+
+}
+
+@media all and (min-width:1280px) {
+
+  .title{
+    font-size: var(--FONT_SIZE_38);
+  }
+}
+
+@media all and (min-width:1536px) {
+
+  .title{
+    font-size: var(--FONT_SIZE_44);
+  }
 }
