@@ -1,4 +1,4 @@
-:root{
+:root {
   --COLOR_BLACK: rgba(22, 28, 36, 1);
   --COLOR_LIGHT_BLACK: rgba(22, 28, 36, 0.04);
   --COLOR_WHITE: rgba(255, 255, 255, 1);
@@ -9,7 +9,7 @@
   --COLOR_BLUE: rgba(66, 149, 228, 1);
   --COLOR_LIGHT_BLUE: rgba(173, 215, 255, 1);
   --COLOR_BCG_BLUE: rgba(242, 248, 255, 1);
-  --COLOR_BORDER_LIGHT_GREY :rgba(234, 234, 234, 1);
+  --COLOR_BORDER_LIGHT_GREY: rgba(234, 234, 234, 1);
   --COLOR_BCG_DARK: rgba(13, 36, 54, 1);
   --COLOR_SHADOW: rgba(0, 0, 0, 0.03);
 
@@ -28,52 +28,54 @@
 
   --FONT_WEIGHT_300: 300;
   --FONT_WEIGHT_600: 600;
+
+  --TRANSITION_NORMAL: 0.5s;
 }
 
 @font-face {
-  font-family:'SF-Pro';
+  font-family: "SF-Pro";
   src: url(../fonts/SF-Pro-Display-Regular.ttf);
   font-style: normal;
 }
 
 @font-face {
-  font-family:'SF-Pro-text';
+  font-family: "SF-Pro-text";
   src: url(../fonts/sf-pro-text-regular.ttf);
   font-style: normal;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
-html{
+html {
   font-family: "SF-Pro";
 }
 
-header{
+header {
   box-shadow: inset 0px -1px 0px var(--COLOR_GREY);
 }
 
-main{
+main {
   overflow: hidden;
 }
 
-a{
+a {
   text-decoration: none;
   color: var(--COLOR_WHITE);
 }
 
-a:hover{
+a:hover {
   color: var(--COLOR_BLUE);
-  transition: 0.5s;
+  transition: var(--TRANSITION_NORMAL);
 }
 
-button{
+button {
   cursor: pointer;
   border: none;
 }
 
-.button{
+.button {
   height: 50px;
   width: 270px;
   background: var(--COLOR_BLUE);
@@ -85,17 +87,17 @@ button{
   border: none;
 }
 
-.button:hover{
+.button:hover {
   color: var(--COLOR_DARK);
-  transition: 0.5s;
+  transition: var(--TRANSITION_NORMAL);
   background-color: var(--COLOR_LIGHT_BLUE);
 }
 
-form{
+form {
   padding: 13px 16px;
 }
 
-input{
+input {
   padding: 13px 0 13px 16px;
   width: 270px;
   border: none;
@@ -107,11 +109,11 @@ input{
   letter-spacing: 1px;
 }
 
-::placeholder{
+::placeholder {
   font-size: var(--FONT_SIZE_14);
 }
 
-.title{
+.title {
   font-weight: var(--FONT_WEIGHT_600);
   font-size: var(--FONT_SIZE_18);
   line-height: 34px;
@@ -119,54 +121,46 @@ input{
   letter-spacing: 1.7px;
 }
 
-.container{
+.container {
   position: relative;
   max-width: 1480px;
   margin: 0 auto;
 }
 
-.white-txt{
+.white-txt {
   color: var(--COLOR_WHITE);
 }
 
-@media all and (min-width:414px) {
-
-  input{
+@media all and (min-width: 414px) {
+  input {
     width: 343px;
   }
 
-  .button{
+  .button {
     width: 343px;
   }
 }
 
-@media all and (min-width:640px) {
-
-  .title{
+@media all and (min-width: 640px) {
+  .title {
     font-size: var(--FONT_SIZE_28);
   }
-
 }
 
-@media all and (min-width:768px) {
-
-
+@media all and (min-width: 768px) {
 }
 
-@media all and (min-width:1024px) {
-
+@media all and (min-width: 1024px) {
 }
 
-@media all and (min-width:1280px) {
-
-  .title{
+@media all and (min-width: 1280px) {
+  .title {
     font-size: var(--FONT_SIZE_38);
   }
 }
 
-@media all and (min-width:1536px) {
-
-  .title{
+@media all and (min-width: 1536px) {
+  .title {
     font-size: var(--FONT_SIZE_44);
   }
 }
